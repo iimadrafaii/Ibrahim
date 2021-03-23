@@ -1,0 +1,150 @@
+.ilsraf-title {
+    @media only screen and (max-width: 600px) {
+        font-size: 4rem;
+        // background-color: lightcoral;
+    }
+    @media only screen and (min-width: 600px) {
+        font-size: 4.5rem;
+        // background-color: lightblue;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 5rem;
+        // background-color: lightseagreen;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 5.5rem;
+        // background-color: magenta;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 6rem;
+        // background-color: rgb(21, 199, 169);
+    }
+}
+
+.ilsraf-sub {
+    @media only screen and (max-width: 600px) {
+        font-size: 2.5rem;
+        // background-color: lightcoral;
+    }
+    @media only screen and (min-width: 600px) {
+        font-size: 2.7rem;
+        // background-color: lightblue;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 3rem;
+        // background-color: lightseagreen;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 3.3rem;
+        // background-color: magenta;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 3.5rem;
+        // background-color: rgb(21, 199, 169);
+    }
+}
+
+.head-cont {
+    // background-color: lightgreen;
+    @include Flex-Row;
+    @include AI;
+    padding: 0;
+    .head-strok {
+        width: 3rem;
+        height: .2rem;
+        background-color: var(--P-color);
+        border-radius: 10rem;
+    }
+    .head-line {
+        width: 0;
+        height: .2rem;
+        margin: 0 .5rem;
+        background-color: var(--P-color);
+        transition: 3s;
+        &.active {
+            width: 100%;
+        }
+    }
+}
+
+.ilsraf-header {
+    color: var(--B-color);
+    text-transform: capitalize;
+    font-family: ilsraf-B;
+    // letter-spacing: .4rem;
+    font-weight: 100;
+    // display: inline-block;
+    // position: relative;
+    @media only screen and (max-width: 600px) {
+        font-size: 2.5rem;
+        // background-color: lightcoral;
+    }
+    @media only screen and (min-width: 600px) {
+        font-size: 2.7rem;
+        // background-color: lightblue;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 3rem;
+        // background-color: lightseagreen;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 3.3rem;
+        // background-color: magenta;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 3.5rem;
+        // background-color: rgb(21, 199, 169);
+    }
+}
+
+.ilsraf-para {
+    color: var(--B-color);
+    font-family: ilsraf-R;
+    font-weight: 100;
+    line-height: 2;
+    // text-indent: 4rem;
+    text-align: justify;
+    @media only screen and (max-width: 600px) {
+        font-size: 1.8rem;
+        // background-color: lightcoral;
+    }
+    @media only screen and (min-width: 600px) {
+        font-size: 1.8rem;
+        // background-color: lightblue;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 1.8rem;
+        // background-color: lightseagreen;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 1.9rem;
+        // background-color: magenta;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 2rem;
+        // background-color: rgb(21, 199, 169);
+    }
+}
+
+.ilsraf-moy {
+    @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+        // background-color: lightcoral;
+    }
+    @media only screen and (min-width: 600px) {
+        font-size: 2rem;
+        // background-color: lightblue;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 2rem;
+        // background-color: lightseagreen;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 2.3rem;
+        // background-color: magenta;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 2.6rem;
+        // background-color: rgb(21, 199, 169);
+    }
+}

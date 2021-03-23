@@ -1,0 +1,50 @@
+.footer-social {
+    .footer-social-content {
+        p {
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--B-color);
+            font-family: ilsraf-M;
+        }
+        .flex {
+            @include Flex-Row;
+            @include AI;
+            @include JCC;
+            @include GP-2;
+            @include WP;
+            a {
+                z-index: 20000000000000000000000000000000000000000;
+                i {
+                    font-size: 4rem;
+                    color: var(--P-color);
+                    transition: .5s;
+                    &:hover {
+                        transform: translateY(-1rem);
+                        color: var(--S-color);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-copy {
+    .footer-copy-content {
+        @include Flex-Row;
+        @include JCC;
+        @include AI;
+        @include GP-1;
+        p {
+            font-family: ilsraf-M;
+            text-transform: capitalize;
+            color: var(--B-color);
+            font-weight: 100;
+        }
+        span {
+            color: var(--B-color);
+            font-family: ilsraf-B;
+            display: block;
+            transform: scale(2) !important;
+        }
+    }
+}

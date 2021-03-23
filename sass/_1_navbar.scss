@@ -1,0 +1,138 @@
+.ilsraf-nav {
+    padding: 0 3%;
+    .ilsraf-nav-content {
+        @include Flex-Row;
+        @include JCSB;
+        @include AI;
+        height: 15vh;
+        .ilsraf-nav-logo {
+            z-index: 10000000000000;
+            svg {
+                width: 17rem;
+                transition: .8s;
+                @media only screen and (max-width: 768px) {
+                    width: 14rem;
+                }
+            }
+        }
+        .ilsraf-nav-list {
+            @include Flex-Row;
+            @include GP-4;
+            @media only screen and (max-width: 1000px) {
+                position: fixed;
+                top: -100vh;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100vw;
+                height: 100vh;
+                background-color: var(--W-color);
+                @include Flex-Col;
+                @include AI;
+                @include JCC;
+                @include GP-4;
+                transition: 1s;
+                z-index: 1000;
+                // top: 0;
+                &.open {
+                    top: 0;
+                }
+            }
+            .ilsraf-list-element {
+                z-index: 10000000000000;
+                .ilsraf-element-content {
+                    font-family: ilsraf-R;
+                    color: var(--B-color);
+                    display: block;
+                    transition: .4s;
+                    &:hover {
+                        color: var(--S-color);
+                    }
+                    &.active {
+                        font-family: ilsraf-B;
+                        color: var(--P-color);
+                    }
+                }
+            }
+        }
+        .burger {
+            width: 2.5rem;
+            display: none;
+            z-index: 10000000000000;
+            &:hover {
+                .line {
+                    background-color: var(--S-color);
+                }
+            }
+            @media only screen and (max-width: 1000px) {
+                @include Flex-Col;
+                @include JCC;
+                gap: .5rem;
+            }
+            cursor: pointer;
+            .line1.change {
+                transform: rotate(-45deg) translate(-6px, 7px);
+                width: 100%;
+            }
+            .line2.change {
+                transform: translateX(2rem);
+                opacity: 0;
+                pointer-events: none;
+            }
+            .line3.change {
+                transform: rotate(45deg) translate(-6px, -6px);
+                width: 100%;
+            }
+            .line {
+                width: 100%;
+                height: 4px;
+                border-radius: 1rem;
+                transition: .5s;
+                background-color: var(--P-color);
+            }
+            .line2 {
+                width: 70%;
+                align-self: flex-end;
+                pointer-events: all;
+            }
+        }
+    }
+}
+
+.scroll-nav {
+    transition: 1s !important;
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    right: 3rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    opacity: 0;
+    &.active {
+        cursor: pointer;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .scroll-links {
+        @include Flex-Col;
+        @include GP-2;
+        li {
+            a {
+                color: var(--S-color);
+                font-size: 3rem;
+                transition: .5s;
+                opacity: .5;
+                @media only screen and (max-width: 600px) {
+                    font-size: 2rem;
+                }
+                &:hover {
+                    color: var(--S-color);
+                }
+                &.active {
+                    opacity: 1;
+                    color: var(--P-color);
+                }
+            }
+        }
+    }
+}

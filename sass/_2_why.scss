@@ -1,0 +1,60 @@
+.why {
+    overflow: hidden;
+    .why-content {
+        .ilsraf-sub {
+            color: var(--P-color);
+        }
+        .why-flex {
+            @include Flex-Row;
+            @include AI;
+            @include JCSB;
+            @include WP;
+            @include GP-2;
+            .why-element {
+                width: 18rem;
+                height: 18rem;
+                // padding: 1rem;
+                margin: 0 auto;
+                border: .3rem solid var(--P-color);
+                border-radius: 50%;
+                cursor: pointer;
+                @include Flex-Col;
+                @include AI;
+                @include JCC;
+                @media only screen and (max-width: 768px) {
+                    width: 16rem;
+                    height: 16rem;
+                    .circle {
+                        width: 14rem !important;
+                        height: 14rem !important;
+                    }
+                }
+                &:hover {
+                    .circle {
+                        // transform: scale(.9);
+                        background-color: var(--S-color);
+                    }
+                }
+                .circle {
+                    width: 16rem;
+                    height: 16rem;
+                    border-radius: 50%;
+                    margin: 0;
+                    padding: 0;
+                    background-color: var(--P-color);
+                    transition: .5s;
+                    padding: 2rem;
+                    @include Flex-Col;
+                    @include AI;
+                    @include JCC;
+                    .ilsraf-moy {
+                        color: var(--W-color);
+                    }
+                }
+            }
+            .desc {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.services {
+    overflow: hidden;
+    .services-content {
+        .flex {
+            @include Flex-Row;
+            // @include AI;
+            @include JCC;
+            @include WP;
+            @include GP-4;
+            .service {
+                width: 22rem;
+                @include Flex-Col;
+                @include AI;
+                @include GP-1;
+                .border {
+                    border: .3rem solid var(--P-color);
+                    border-radius: 50%;
+                    transition: .5s;
+                    &:hover {
+                        transform: translateY(-2rem);
+                    }
+                }
+                svg {
+                    display: block;
+                    width: 18rem;
+                    margin: 0 auto;
+                    fill: var(--P-color);
+                }
+                h3,
+                p {
+                    text-align: center;
+                    margin: 0;
+                }
+                h3 {
+                    text-transform: capitalize;
+                    color: var(--P-color);
+                }
+                p {
+                    text-indent: 0;
+                    color: var(--B-color);
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+}

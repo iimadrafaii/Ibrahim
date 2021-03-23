@@ -1,0 +1,92 @@
+// Flex-Box
+@mixin Flex-Col {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin Flex-Row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin Flex-Col-Rev {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@mixin Flex-Row-Rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@mixin AI {
+    align-items: center;
+}
+
+@mixin JCC {
+    justify-content: center;
+}
+
+@mixin JCSA {
+    justify-content: space-around;
+}
+
+@mixin JCSB {
+    justify-content: space-between;
+}
+
+@mixin WP {
+    flex-wrap: wrap;
+}
+
+@mixin GP-1 {
+    gap: 1rem;
+}
+
+@mixin GP-2 {
+    gap: 2rem;
+}
+
+@mixin GP-3 {
+    gap: 3rem;
+}
+
+@mixin GP-4 {
+    gap: 4rem;
+}
+
+@mixin GP-7 {
+    gap: 7rem;
+}
+
+
+/**/
+
+
+/**/
+
+// Container width
+@mixin Center70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@mixin Center80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@mixin Center90 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/**/
+
+//Background
+@mixin Background {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

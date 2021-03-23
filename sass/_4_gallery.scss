@@ -1,0 +1,90 @@
+.gallery {
+    // background-color: lighten($color: var(--P-color), $amount: 0);
+    overflow: hidden;
+    .gallery-content {
+        .galls {
+            @include Flex-Row;
+            @include AI;
+            @include JCSB;
+            @include WP;
+            @include GP-4;
+            .border {
+                margin: 0 auto;
+                border: .3rem solid var(--P-color);
+                border-radius: 50%;
+                overflow: hidden;
+                padding: 1rem;
+                width: fit-content;
+                height: fit-content;
+                cursor: pointer;
+                z-index: 2;
+                .gall {
+                    position: relative;
+                    overflow: hidden;
+                    width: 25rem;
+                    height: 25rem;
+                    border-radius: 50%;
+                    @media only screen and (max-width: 600px) {
+                        width: 25rem;
+                        height: 25rem;
+                    }
+                    &:hover {
+                        img {
+                            transform: scale(1.5) rotate(10deg);
+                        }
+                        a {
+                            i {
+                                opacity: 1;
+                            }
+                        }
+                        .overlay {
+                            opacity: .8;
+                        }
+                    }
+                    a {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        @include Flex-Col;
+                        @include AI;
+                        @include JCC;
+                        z-index: 11;
+                        i {
+                            color: #fff;
+                            font-size: 3rem;
+                            opacity: 0;
+                            transition: .5s;
+                        }
+                    }
+                    img {
+                        width: 100%;
+                        border-radius: 50%;
+                        transition: .5s;
+                    }
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        left: 0;
+                        bottom: 0;
+                        border-radius: 50%;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(to right, var(--S-color), var(--P-color));
+                        opacity: 0;
+                        transition: .5s;
+                        z-index: 10;
+                    }
+                }
+            }
+        }
+        .gallery-btns {
+            @include Flex-Row;
+            @include AI;
+            @include JCC;
+            @include GP-2;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.master {
+    overflow: hidden;
+    // background-color: rgb(196, 196, 196);
+    min-height: 85vh;
+    @include Flex-Col;
+    @include AI;
+    @include JCC;
+    .master-content {
+        // background-color: rgb(228, 232, 236);
+        @include Flex-Col;
+        @include AI;
+        gap: 2%;
+        text-align: center;
+        h1 {
+            font-family: ilsraf-B;
+            font-weight: 900;
+            line-height: 1;
+            color: var(--B-color);
+            span {
+                color: var(--P-color);
+            }
+        }
+        h2 {
+            font-family: ilsraf-R;
+            font-weight: 500;
+            color: var(--P-color);
+        }
+        #master-logo {
+            width: 50%;
+        }
+        P {
+            font-weight: 100;
+            font-family: ilsraf-R;
+            color: var(--B-color);
+            text-align: center;
+        }
+        .master-btns {
+            @include Flex-Row;
+            @include GP-2;
+            .ilsraf-btn {
+                text-transform: uppercase;
+            }
+        }
+    }
+}

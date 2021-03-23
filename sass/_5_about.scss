@@ -1,0 +1,176 @@
+.about {
+    overflow: hidden;
+    .about-content {
+        h2 {
+            color: var(--B-color);
+        }
+        p {
+            color: var(--B-color);
+        }
+        .skills {
+            width: 60%;
+            padding: 2rem;
+            margin: 0 auto;
+            .skill {
+                position: relative;
+                padding: 4rem 0;
+                p {
+                    color: #fff;
+                    font-family: ilsraf-L;
+                }
+                .meft {
+                    transition: 2s;
+                    position: absolute;
+                    top: 0;
+                    width: fit-content;
+                    left: 0;
+                    .flex {
+                        @include Flex-Row;
+                        @include AI;
+                        @include JCC;
+                        @include GP-1;
+                        background-color: var(--P-color);
+                        width: fit-content;
+                        height: 5rem;
+                        padding: 0 1rem;
+                        border-radius: 1rem;
+                        position: relative;
+                        &::after {
+                            position: absolute;
+                            top: 5rem;
+                            left: 50%;
+                            transform: translate(-50%, -50%) rotate(45deg);
+                            content: '';
+                            width: 2rem;
+                            height: 2rem;
+                            background-color: var(--P-color);
+                        }
+                    }
+                }
+                .meft1 {
+                    &.active {
+                        left: 90%;
+                        transform: translateX(-50%);
+                    }
+                }
+                .meft2 {
+                    &.active {
+                        left: 60%;
+                        transform: translateX(-50%);
+                    }
+                }
+                .meft3 {
+                    &.active {
+                        left: 100%;
+                        transform: translateX(-50%);
+                    }
+                }
+                .number {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    height: 1rem;
+                    border: .2rem solid var(--P-color);
+                    overflow: hidden;
+                    .progress {
+                        background-color: var(--P-color);
+                        height: 100%;
+                        width: 0;
+                        transition: 2s;
+                    }
+                    .progress1 {
+                        &.active {
+                            width: 90%;
+                        }
+                    }
+                    .progress2 {
+                        &.active {
+                            width: 60%;
+                        }
+                    }
+                    .progress3 {
+                        &.active {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .timeline {
+            // background-color: whitesmoke;
+            position: relative;
+            .timeline-content {
+                position: relative;
+                &::before {
+                    content: '';
+                    width: .4rem;
+                    height: 100%;
+                    background-color: var(--P-color);
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 0 !important;
+                }
+                .time {
+                    position: relative;
+                    .year {
+                        background-color: var(--P-color);
+                        width: 10rem;
+                        margin: 0 auto;
+                        position: relative;
+                        border-radius: 1rem !important;
+                        z-index: 2;
+                        color: #fff;
+                        text-align: center;
+                    }
+                    .left,
+                    .right {
+                        text-align: center;
+                        background-color: var(--P-color);
+                        width: calc(50% - 2rem);
+                        position: relative;
+                        margin: 2rem 0;
+                        border-radius: .8rem;
+                        padding: 1rem;
+                        .title,
+                        .description {
+                            font-size: 1.5rem;
+                            color: #fff;
+                        }
+                        .title {
+                            font-family: ilsraf-B;
+                        }
+                        .description {}
+                    }
+                    .left {
+                        float: left;
+                        &::after {
+                            content: '';
+                            width: 2rem;
+                            height: 2rem;
+                            background-color: var(--P-color);
+                            position: absolute;
+                            top: 50%;
+                            right: 0;
+                            transform: translate(50%, -50%) rotate(45deg);
+                        }
+                    }
+                    .right {
+                        float: right;
+                        &::after {
+                            content: '';
+                            width: 2rem;
+                            height: 2rem;
+                            background-color: var(--P-color);
+                            position: absolute;
+                            top: 50%;
+                            left: 0;
+                            transform: translate(-50%, -50%) rotate(45deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

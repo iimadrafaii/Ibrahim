@@ -1,0 +1,104 @@
+.portfolio {
+    // background-color: lighten($color: var(--P-color), $amount: 0);
+    overflow: hidden;
+    .portfolio-content {
+        .flex {
+            @include Flex-Row;
+            @include AI;
+            @include JCSB;
+            @include WP;
+            @include GP-4;
+            .work {
+                overflow: hidden;
+                border-radius: .5rem;
+                width: 40rem;
+                height: 25rem;
+                position: relative;
+                margin: 0 auto;
+                box-shadow: .1rem .1rem .5rem var(--G-color);
+                @media only screen and (max-width: 600px) {
+                    width: 30rem;
+                    height: 20rem;
+                    .ico {
+                        width: 14rem !important;
+                    }
+                    .action {
+                        gap: 1rem !important;
+                    }
+                }
+                &:hover {
+                    .content {
+                        transform: scale(1.5) rotate(5deg);
+                    }
+                    .overlay {
+                        opacity: .9;
+                    }
+                    .action {
+                        h4,
+                        a {
+                            transform: translateX(0);
+                            opacity: 1;
+                        }
+                    }
+                }
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(to right, var(--S-color), var(--P-color));
+                    opacity: 0;
+                    transition: .5s;
+                    z-index: 10;
+                }
+                .content {
+                    width: 100%;
+                    height: 100%;
+                    transition: .5s;
+                    object-fit: cover;
+                }
+                .action {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 300000 !important;
+                    @include Flex-Col;
+                    @include AI;
+                    @include JCC;
+                    @include GP-2;
+                    width: fit-content;
+                    h4,
+                    a {
+                        color: #fff;
+                        text-transform: uppercase;
+                    }
+                    h4,
+                    a {
+                        transition: .5s;
+                        opacity: 0;
+                    }
+                    h4 {
+                        transform: translateX(15rem);
+                    }
+                    a {
+                        transform: translateX(-15rem);
+                        &:hover {
+                            transform: translateX(3rem);
+                        }
+                    }
+                }
+            }
+        }
+        .last-p {
+            text-align: center;
+        }
+        .ilsraf-btn {
+            margin: 0 auto;
+            text-transform: uppercase;
+        }
+    }
+}

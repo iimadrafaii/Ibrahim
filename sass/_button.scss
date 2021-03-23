@@ -1,0 +1,39 @@
+.ilsraf-btn {
+    display: block;
+    background-color: var(--W-color);
+    width: 17rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: .5rem;
+    font-family: ilsraf-R;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    transition: .5s !important;
+    cursor: pointer;
+    &:hover {
+        transform: scale(.9) !important;
+    }
+    @media only screen and (max-width: 768px) {
+        width: 15rem;
+        font-size: 1.7rem;
+    }
+}
+
+.ilsraf-btn-P {
+    border: 1px solid var(--P-color);
+    background-color: var(--P-color);
+    color: var(--W-color);
+    &:hover {
+        border: 1px solid var(--S-color);
+        background-color: var(--S-color);
+    }
+}
+
+.ilsraf-btn-S {
+    color: var(--P-color);
+    border: .2rem solid var(--P-color);
+    &:hover {
+        border: .2rem solid var(--S-color);
+        color: var(--S-color);
+    }
+}

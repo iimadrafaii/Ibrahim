@@ -1,0 +1,21 @@
+<?php
+    if ( isset($_POST['submitContact'])) {
+    $name = htmlspecialchars($_POST['name']);
+    $subject = htmlspecialchars($_POST['sujet']);
+    $mailFrom = htmlspecialchars($_POST['email']);
+    $message = htmlspecialchars($_POST['message']);
+
+    $mailTo = "rafaiilyes3@gmail.com";
+    $headers ="From : ".$mailFrom;
+    $txt ="Vous avez reçu un e-mail"."\n\n"."Nom : ".$name."\n\n"."Adresse email : ".$mailFrom."\n\n"."Sujet : ".$subject."\n\n"."Message : ".$message;
+    
+    if(mail($mailTo, $subject, $txt, $headers))
+    {
+        echo '<script type="text/javascript">alert("Merci de nous avoir contactés, nous vous recontacterons dès que possible");</script>';
+        echo "<meta http-equiv='refresh' content='0'>";
+    } 
+    else {
+        echo '<script type="text/javascript">alert("Votre email n"a pas été envoyé, veuillez réessayer");</script>';
+        echo "<meta http-equiv='refresh' content='0'>";
+    }}
+?> 

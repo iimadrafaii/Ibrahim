@@ -6,17 +6,17 @@
     $mailFrom = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    $mailTo = "rafaiilyes3@gmail.com";
+    $mailTo = "imad.rafai@yahoo.com";
     $headers ="From : ".$mailFrom;
     $txt ="Vous avez reçu un e-mail"."\n\n"."Nom : ".$name."\n\n"."Téléphone : ".$tel."\n\n"."Adresse email : ".$mailFrom."\n\n"."Sujet : ".$subject."\n\n"."Message : ".$message;
     
     if(mail($mailTo, $subject, $txt, $headers))
     {
-        echo '<script type="text/javascript">alert("Merci de nous avoir contactés, nous vous recontacterons dès que possible");</script>';
+        echo '<script type="text/javascript">alert("Merci de m'avoir contacté.");</script>';
         echo "<meta http-equiv='refresh' content='0'>";
     } 
     else {
-        echo '<script type="text/javascript">alert("Votre email n"a pas été envoyé, veuillez réessayer");</script>';
+        echo '<script type="text/javascript">alert("Votre email n'a pas pû être envoyé, veuillez réessayer");</script>';
         echo "<meta http-equiv='refresh' content='0'>";
     }}
 ?>  -->
@@ -26,28 +26,28 @@
 
 <head>
     <meta name="description" content="Description here">
-    <meta name="keywords" content="word, word, word, ....">
-    <meta name="author" content="Oriendes">
+    <meta name="keywords" content="imad,rafai,stage,portfolio,ensimag,java,c,python,web,development">
+    <meta name="author" content="Imad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="SHORTCUT ICON" href="img/Logo-Self.png" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/izi.min.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>TITLE</title>
+    <title>Imad RAFAI</title>
 </head>
 
 <body>
     <div id="particles-js"></div>
     <a class="scrol-tostart scrol-to" data-section="NAV" title="Go to start"> <i data-aos="fade-up-right" class="fas fa-chevron-circle-up"></i> </a>
     <a href="https://wa.me/+212604457507" target="_blanc"> <i class="fab fa-whatsapp whtsIco"></i> </a>
-    <div class="ilsraf-nav page-section" id="NAV">
-        <div class="ilsraf-nav-content">
-            <!-- <div class="ilsraf-nav-logo"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 277.12 103.39"> <defs><style>.cls-1{fill:var(--P-color)}.cls-2{opacity:0.49;fill:url(#linear-gradient)}.cls-3{opacity:0.48}.cls-4{fill:url(#linear-gradient-2)}.cls-5{fill:url(#linear-gradient-3)}.cls-6{fill:url(#linear-gradient-4)}.cls-7{fill:url(#linear-gradient-5)}.cls-8{fill:url(#linear-gradient-6)}.cls-9{fill:url(#linear-gradient-7)}.cls-10{fill:var(--P-color)}</style><linearGradient id="linear-gradient" x1="203.68" y1="260.89" x2="258.62" y2="207.34" gradientTransform="matrix(-0.71, -0.71, -0.71, 0.71, 376.87, 156.11)" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#fff" stop-opacity="0"/> <stop offset="0.09" stop-color="#c8c8cf" stop-opacity="0.24"/> <stop offset="0.27" stop-color="#69697e" stop-opacity="0.66"/> <stop offset="0.44" stop-color="#30304d" stop-opacity="0.91"/> <stop offset="0.57" stop-color="#1c1c3c"/> </linearGradient> <linearGradient id="linear-gradient-2" x1="38.33" y1="76.64" x2="243.98" y2="80.48" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#20323b"/> <stop offset="0.21" stop-color="#2e3e47" stop-opacity="0.94"/> <stop offset="0.39" stop-color="#57646b" stop-opacity="0.75"/> <stop offset="0.57" stop-color="#9ca4a8" stop-opacity="0.44"/> <stop offset="0.74" stop-color="#fdfdfd" stop-opacity="0.01"/> <stop offset="0.75" stop-color="#fff" stop-opacity="0"/> </linearGradient> <linearGradient id="linear-gradient-3" x1="78.26" y1="173.83" x2="283.91" y2="177.67" xlink:href="#linear-gradient-2"/> <linearGradient id="linear-gradient-4" x1="87.16" y1="180" x2="292.81" y2="183.84" xlink:href="#linear-gradient-2"/> <linearGradient id="linear-gradient-5" x1="95.17" y1="179.38" x2="300.82" y2="183.21" xlink:href="#linear-gradient-2"/> <linearGradient id="linear-gradient-6" x1="103.18" y1="178.79" x2="308.83" y2="182.63" xlink:href="#linear-gradient-2"/> <linearGradient id="linear-gradient-7" x1="111.35" y1="170.14" x2="316.99" y2="173.97" xlink:href="#linear-gradient-2"/> </defs> <g id="Layer_3" data-name="Layer 3"> <g> <path class="cls-1" d="M94.85,141.25c-.68,0-1.29.07-1.87.07-9.82.05-19.65.05-29.44.13l-.28,8.23c0,.1,0,.2,0,.3s0,.26,0,.41q-.15,11.18-.13,22.35c0,3,.25,6.13.28,9.21,0,4.85,0,9.7.08,14.55,0,1.52-.28,2.78-1.77,3.43s-2.58,0-3.59-1.06c-7.47-7.52-15-15.05-22.47-22.6a11.75,11.75,0,0,1-3.56-7.88c-.08-1.51-.18-3-.18-4.52,0-6.89.07-13.81,0-20.71a32.84,32.84,0,0,1,10-24.77,29.86,29.86,0,0,1,5.28-4.16,16.94,16.94,0,0,0,32.73.22,32.52,32.52,0,0,1,8.48,7.8,36.78,36.78,0,0,1,4.82,9.37C94.37,134.63,95.38,137.81,94.85,141.25Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M63.57,122a12.11,12.11,0,1,1,12.1-12.12A12.11,12.11,0,0,1,63.57,122Z" transform="translate(-31.94 -97.82)"/> <path class="cls-2" d="M32.14,168.39a11.33,11.33,0,0,0,3.57,7.88q11.22,11.31,22.48,22.61c1,1,2.11,1.68,3.57,1.05s1.79-1.91,1.77-3.44c-.07-4.85,0-9.69-.07-14.54,0-3.08-.28-6.15-.29-9.22,0-7.45,0-14.9.13-22.35,0-.14,0-.27,0-.39l0-.32.28-8.22-9.07.23a21.23,21.23,0,0,0-17,8.6A29.28,29.28,0,0,0,32.14,168.39Z" transform="translate(-31.94 -97.82)"/> </g> <polygon class="cls-1" points="38.7 58.59 47.94 58.59 47.94 95.2 38.7 95.2 38.7 102.5 64.86 102.5 64.86 95.2 55.69 95.2 55.69 58.59 64.86 58.59 64.86 51.29 38.7 51.29 38.7 58.59"/> <path class="cls-1" d="M122.52,191.39a5.89,5.89,0,0,1-1.51-4.18v-38.1h-7.75v37.24a15.53,15.53,0,0,0,1.61,7.11,12.39,12.39,0,0,0,4.6,5,13.17,13.17,0,0,0,7,1.84H140V193H126.51A5.15,5.15,0,0,1,122.52,191.39Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M179.58,178.61a15.09,15.09,0,0,0-6.57-1.3H166.3a4.13,4.13,0,0,1-3.17-1.14,3.7,3.7,0,0,1-1.1-2.67,4,4,0,0,1,1.07-2.79,3.71,3.71,0,0,1,2.93-1.17h16.05v-6.87H165.41a10.41,10.41,0,0,0-5.64,1.55,11.62,11.62,0,0,0-3.72,15.39,9.56,9.56,0,0,0,4.16,3.69,14.15,14.15,0,0,0,6.09,1.24h7a4.68,4.68,0,0,1,2.41.59,3.61,3.61,0,0,1,1.44,1.54,4.61,4.61,0,0,1,.49,2.11,4.92,4.92,0,0,1-.55,2.28,4.4,4.4,0,0,1-1.6,1.72,4.67,4.67,0,0,1-2.53.66H155.72v6.88h18a10.76,10.76,0,0,0,6-1.67,11.77,11.77,0,0,0,4-4.32,13,13,0,0,0,0-11.86A9.39,9.39,0,0,0,179.58,178.61Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M204.23,165.6a11.2,11.2,0,0,0-2.81,8v26.68h7.48V174.07a4.69,4.69,0,0,1,1.1-3.36,4,4,0,0,1,3.1-1.17h6.61v-6.87h-7.78A10.21,10.21,0,0,0,204.23,165.6Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M260.54,164.4a18.18,18.18,0,0,0-9.81-2.58,19,19,0,0,0-10.16,2.62,17.52,17.52,0,0,0-6.51,7.09,21.82,21.82,0,0,0-2.26,10,23.6,23.6,0,0,0,2,9.9,17,17,0,0,0,5.89,7.14,15.71,15.71,0,0,0,9.08,2.63,14.9,14.9,0,0,0,6.33-1.26,14.7,14.7,0,0,0,4.53-3.24,20,20,0,0,0,1.89-2.41v6.06h7.54v-19a21.61,21.61,0,0,0-2.22-9.85A17.44,17.44,0,0,0,260.54,164.4Zm-16,6a10.48,10.48,0,0,1,6-1.68,10.11,10.11,0,0,1,5.77,1.65,10.86,10.86,0,0,1,3.79,4.5,15.24,15.24,0,0,1,1.34,6.51,15.41,15.41,0,0,1-1.41,6.69,11.1,11.1,0,0,1-3.89,4.61,10.14,10.14,0,0,1-5.74,1.65,10.29,10.29,0,0,1-6-1.68,10.85,10.85,0,0,1-3.76-4.57,16.82,16.82,0,0,1,0-13.11A10.89,10.89,0,0,1,244.58,170.37Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M298,155a4,4,0,0,1,3.13-1.16h8V147h-9.21a10.25,10.25,0,0,0-7.71,2.93,11.21,11.21,0,0,0-2.8,8v4.74h-6.09v6.87h6.09v30.78h7.54V169.54h10.81v-6.87H296.88v-4.31A4.84,4.84,0,0,1,298,155Z" transform="translate(-31.94 -97.82)"/> <g class="cls-3"> <polygon class="cls-4" points="38.7 58.59 47.94 58.59 47.94 95.2 38.7 95.2 38.7 102.5 64.86 102.5 64.86 95.2 55.69 95.2 55.69 58.59 64.86 58.59 64.86 51.29 38.7 51.29 38.7 58.59"/> <path class="cls-5" d="M122.51,191.36a5.89,5.89,0,0,1-1.51-4.18v-38.1h-7.75v37.24a15.56,15.56,0,0,0,1.61,7.11,12.39,12.39,0,0,0,4.6,5,13.17,13.17,0,0,0,7,1.84H140V193H126.5A5.15,5.15,0,0,1,122.51,191.36Z" transform="translate(-31.94 -97.82)"/> <path class="cls-6" d="M179.58,178.65a14.94,14.94,0,0,0-6.57-1.31H166.3a4.13,4.13,0,0,1-3.17-1.14,3.7,3.7,0,0,1-1.1-2.67,4,4,0,0,1,1.07-2.79,3.73,3.73,0,0,1,2.93-1.16h16.05V162.7H165.41a10.41,10.41,0,0,0-5.64,1.56,10.91,10.91,0,0,0-3.83,4,11.94,11.94,0,0,0,.11,11.35,9.56,9.56,0,0,0,4.16,3.69,14.3,14.3,0,0,0,6.09,1.23h7a4.58,4.58,0,0,1,2.41.6,3.53,3.53,0,0,1,1.44,1.53,4.61,4.61,0,0,1,.49,2.11,4.89,4.89,0,0,1-.55,2.28,4.36,4.36,0,0,1-1.6,1.73,4.76,4.76,0,0,1-2.53.66H155.72v6.87h18a10.83,10.83,0,0,0,6-1.66,11.88,11.88,0,0,0,4-4.33,12.07,12.07,0,0,0,1.44-5.77,12.24,12.24,0,0,0-1.42-6.09A9.31,9.31,0,0,0,179.58,178.65Z" transform="translate(-31.94 -97.82)"/> <path class="cls-7" d="M204.23,165.63a11.21,11.21,0,0,0-2.81,8v26.68h7.48V174.1a4.68,4.68,0,0,1,1.1-3.35,4,4,0,0,1,3.1-1.17h6.61V162.7h-7.78A10.21,10.21,0,0,0,204.23,165.63Z" transform="translate(-31.94 -97.82)"/> <path class="cls-8" d="M260.54,164.44a18.1,18.1,0,0,0-9.81-2.59,19,19,0,0,0-10.16,2.62,17.52,17.52,0,0,0-6.51,7.09,21.82,21.82,0,0,0-2.26,10,23.6,23.6,0,0,0,2,9.9,17,17,0,0,0,5.89,7.14,15.71,15.71,0,0,0,9.08,2.64,14.9,14.9,0,0,0,6.33-1.27,14.54,14.54,0,0,0,4.53-3.24,19.22,19.22,0,0,0,1.89-2.41v6.06h7.54v-19a21.61,21.61,0,0,0-2.22-9.85A17.35,17.35,0,0,0,260.54,164.44Zm-16,6a10.49,10.49,0,0,1,6-1.69,10.18,10.18,0,0,1,5.77,1.65,10.86,10.86,0,0,1,3.79,4.5,15.24,15.24,0,0,1,1.34,6.51,15.41,15.41,0,0,1-1.41,6.69,11.1,11.1,0,0,1-3.89,4.61,10.14,10.14,0,0,1-5.74,1.65,10.29,10.29,0,0,1-6-1.68,10.85,10.85,0,0,1-3.76-4.57,16.79,16.79,0,0,1,0-13.1A10.77,10.77,0,0,1,244.58,170.41Z" transform="translate(-31.94 -97.82)"/> <path class="cls-9" d="M298,155a4,4,0,0,1,3.13-1.16h8V147h-9.21a10.25,10.25,0,0,0-7.71,2.93,11.21,11.21,0,0,0-2.8,8v4.74h-6.09v6.87h6.09v30.78h7.54V169.54h10.81v-6.87H296.88v-4.31A4.84,4.84,0,0,1,298,155Z" transform="translate(-31.94 -97.82)"/> </g> <g> <path class="cls-10" d="M116.44,119.17h-4.28v12.37h4.28a6,6,0,0,0,6.35-6.33A6,6,0,0,0,116.44,119.17Zm5.17,6a4.9,4.9,0,0,1-5.17,5.19h-3.1V120.29h3.1A4.85,4.85,0,0,1,121.61,125.22Z" transform="translate(-31.94 -97.82)"/> <rect class="cls-10" x="114.77" y="21.36" width="1.16" height="12.36"/> <path class="cls-10" d="M177.32,126h4.29v3.23a5.45,5.45,0,0,1-3.62,1.34,5,5,0,0,1-5.32-5.21,5.29,5.29,0,0,1,1.51-3.86,5.24,5.24,0,0,1,3.81-1.43,5.67,5.67,0,0,1,3.87,1.53l.08.08.7-.76-.08-.08a6.83,6.83,0,0,0-9.25-.09,6.26,6.26,0,0,0-1.78,4.63,6,6,0,0,0,6.46,6.3,6.56,6.56,0,0,0,4.72-2l0,0V125h-5.42Z" transform="translate(-31.94 -97.82)"/> <rect class="cls-10" x="174.95" y="21.36" width="1.16" height="12.36"/> <polygon class="cls-10" points="200 22.43 204.44 22.43 204.44 33.72 205.62 33.72 205.62 22.43 210.06 22.43 210.06 21.37 200 21.37 200 22.43"/> <path class="cls-10" d="M270.84,119.17h-1.19l-5.54,12.21-.08.16h1.28l1.33-3h7.19l1.35,3h1.28l-5.59-12.3Zm2.52,8.29h-6.25l3.13-7Z" transform="translate(-31.94 -97.82)"/> <polygon class="cls-10" points="268.96 32.61 268.96 21.36 267.78 21.36 267.78 33.72 275.88 33.72 275.88 32.61 268.96 32.61"/> </g> <g> <polygon class="cls-10" points="126.49 43.56 122.24 53.89 121.23 53.89 119.33 49.06 117.82 45 116.32 49.02 114.39 53.89 113.38 53.89 109.17 43.56 110.17 43.56 113.86 52.96 117.55 43.56 118.08 43.56 121.75 52.96 125.47 43.56 126.49 43.56"/> <path class="cls-10" d="M187.75,142.64a6.58,6.58,0,0,0-4.36-1.41c-4.19,0-6.07,2.65-6.07,5.29s1.91,5.33,6.07,5.33,6.07-2.75,6.08-5.31A5,5,0,0,0,187.75,142.64Zm-4.36,8.48c-3.5,0-5.12-2.37-5.14-4.59a4.35,4.35,0,0,1,1.48-3.39,5.52,5.52,0,0,1,3.66-1.2c3.57,0,5.18,2.31,5.18,4.59S187,151.12,183.39,151.12Z" transform="translate(-31.94 -97.82)"/> <path class="cls-10" d="M214.84,147.73h.36a4.22,4.22,0,0,0,2.56-.91,2.82,2.82,0,0,0,1-2.17v0c0-1.54-1.26-3.21-4-3.21h-5.3v10.29h.94v-3.9h3.27l.05,0,4.11,3.85h1.22Zm-4.41-.7v-4.92h4.36a3.19,3.19,0,0,1,2.13.7,2.3,2.3,0,0,1,.8,1.76c0,1.57-1.13,2.46-3,2.46Z" transform="translate(-31.94 -97.82)"/> <polygon class="cls-10" points="214.97 53.81 214.97 53.85 213.78 53.85 207.46 48.79 207.46 53.84 206.52 53.84 206.52 43.56 207.46 43.56 207.46 48.25 213.3 43.56 214.42 43.56 214.42 43.62 208.51 48.38 208.36 48.49 214.97 53.81"/> <path class="cls-10" d="M274.86,149c0,2.66-3.64,2.88-4.76,2.88-1.75,0-4-.59-4.93-2.23l.83-.35c.72,1.22,2.61,1.86,4.1,1.86,1.14,0,3.82-.21,3.82-2.17,0-1.57-2-1.91-3.94-2.23-2.09-.34-4.46-.73-4.46-2.64a2.18,2.18,0,0,1,.78-1.75,6,6,0,0,1,3.8-1.09c1.82,0,3.26.3,4.4,1.74l-.76.39h0c-.86-1.2-2.25-1.38-3.63-1.39-.36,0-3.63.05-3.63,2.09,0,1.27,1.45,1.59,3.68,1.95l.13,0C272.53,146.4,274.86,146.78,274.86,149Z" transform="translate(-31.94 -97.82)"/> </g> </g> </svg></div> -->
-            <div class="ilsraf-nav-logo">
+    <div class="imadraf-nav page-section" id="NAV">
+        <div class="imadraf-nav-content">
+            <!-- <div class="imadraf-nav-logo"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 277.12 103.39"> <defs><style>.cls-1{fill:var(--P-color)}.cls-2{opacity:0.49;fill:url(#linear-gradient)}.cls-3{opacity:0.48}.cls-4{fill:url(#linear-gradient-2)}.cls-5{fill:url(#linear-gradient-3)}.cls-6{fill:url(#linear-gradient-4)}.cls-7{fill:url(#linear-gradient-5)}.cls-8{fill:url(#linear-gradient-6)}.cls-9{fill:url(#linear-gradient-7)}.cls-10{fill:var(--P-color)}</style><linearGradient id="linear-gradient" x1="203.68" y1="260.89" x2="258.62" y2="207.34" gradientTransform="matrix(-0.71, -0.71, -0.71, 0.71, 376.87, 156.11)" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#fff" stop-opacity="0"/> <stop offset="0.09" stop-color="#c8c8cf" stop-opacity="0.24"/> <stop offset="0.27" stop-color="#69697e" stop-opacity="0.66"/> <stop offset="0.44" stop-color="#30304d" stop-opacity="0.91"/> <stop offset="0.57" stop-color="#1c1c3c"/> </linearGradient> <linearGradient id="linear-gradient-2" x1="38.33" y1="76.64" x2="243.98" y2="80.48" gradientUnits="userSpaceOnUse"> <stop offset="0" stop-color="#20323b"/> <stop offset="0.21" stop-color="#2e3e47" stop-opacity="0.94"/> <stop offset="0.39" stop-color="#57646b" stop-opacity="0.75"/> <stop offset="0.57" stop-color="#9ca4a8" stop-opacity="0.44"/> <stop offset="0.74" stop-color="#fdfdfd" stop-opacity="0.01"/> <stop offset="0.75" stop-color="#fff" stop-opacity="0"/> </linearGradient> <linearGradient id="linear-gradient-3" x1="78.26" y1="173.83" x2="283.91" y2="177.67" xlink:href="#linear-gradient-2"/> <linearGradient id="linear-gradient-4" x1="87.16" y1="180" x2="292.81" y2="183.84" xlink:href="#linear-gradient-2"/> <linearGradient id="linear-gradient-5" x1="95.17" y1="179.38" x2="300.82" y2="183.21" xlink:href="#linear-gradient-2"/> <linearGradient id="linear-gradient-6" x1="103.18" y1="178.79" x2="308.83" y2="182.63" xlink:href="#linear-gradient-2"/> <linearGradient id="linear-gradient-7" x1="111.35" y1="170.14" x2="316.99" y2="173.97" xlink:href="#linear-gradient-2"/> </defs> <g id="Layer_3" data-name="Layer 3"> <g> <path class="cls-1" d="M94.85,141.25c-.68,0-1.29.07-1.87.07-9.82.05-19.65.05-29.44.13l-.28,8.23c0,.1,0,.2,0,.3s0,.26,0,.41q-.15,11.18-.13,22.35c0,3,.25,6.13.28,9.21,0,4.85,0,9.7.08,14.55,0,1.52-.28,2.78-1.77,3.43s-2.58,0-3.59-1.06c-7.47-7.52-15-15.05-22.47-22.6a11.75,11.75,0,0,1-3.56-7.88c-.08-1.51-.18-3-.18-4.52,0-6.89.07-13.81,0-20.71a32.84,32.84,0,0,1,10-24.77,29.86,29.86,0,0,1,5.28-4.16,16.94,16.94,0,0,0,32.73.22,32.52,32.52,0,0,1,8.48,7.8,36.78,36.78,0,0,1,4.82,9.37C94.37,134.63,95.38,137.81,94.85,141.25Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M63.57,122a12.11,12.11,0,1,1,12.1-12.12A12.11,12.11,0,0,1,63.57,122Z" transform="translate(-31.94 -97.82)"/> <path class="cls-2" d="M32.14,168.39a11.33,11.33,0,0,0,3.57,7.88q11.22,11.31,22.48,22.61c1,1,2.11,1.68,3.57,1.05s1.79-1.91,1.77-3.44c-.07-4.85,0-9.69-.07-14.54,0-3.08-.28-6.15-.29-9.22,0-7.45,0-14.9.13-22.35,0-.14,0-.27,0-.39l0-.32.28-8.22-9.07.23a21.23,21.23,0,0,0-17,8.6A29.28,29.28,0,0,0,32.14,168.39Z" transform="translate(-31.94 -97.82)"/> </g> <polygon class="cls-1" points="38.7 58.59 47.94 58.59 47.94 95.2 38.7 95.2 38.7 102.5 64.86 102.5 64.86 95.2 55.69 95.2 55.69 58.59 64.86 58.59 64.86 51.29 38.7 51.29 38.7 58.59"/> <path class="cls-1" d="M122.52,191.39a5.89,5.89,0,0,1-1.51-4.18v-38.1h-7.75v37.24a15.53,15.53,0,0,0,1.61,7.11,12.39,12.39,0,0,0,4.6,5,13.17,13.17,0,0,0,7,1.84H140V193H126.51A5.15,5.15,0,0,1,122.52,191.39Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M179.58,178.61a15.09,15.09,0,0,0-6.57-1.3H166.3a4.13,4.13,0,0,1-3.17-1.14,3.7,3.7,0,0,1-1.1-2.67,4,4,0,0,1,1.07-2.79,3.71,3.71,0,0,1,2.93-1.17h16.05v-6.87H165.41a10.41,10.41,0,0,0-5.64,1.55,11.62,11.62,0,0,0-3.72,15.39,9.56,9.56,0,0,0,4.16,3.69,14.15,14.15,0,0,0,6.09,1.24h7a4.68,4.68,0,0,1,2.41.59,3.61,3.61,0,0,1,1.44,1.54,4.61,4.61,0,0,1,.49,2.11,4.92,4.92,0,0,1-.55,2.28,4.4,4.4,0,0,1-1.6,1.72,4.67,4.67,0,0,1-2.53.66H155.72v6.88h18a10.76,10.76,0,0,0,6-1.67,11.77,11.77,0,0,0,4-4.32,13,13,0,0,0,0-11.86A9.39,9.39,0,0,0,179.58,178.61Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M204.23,165.6a11.2,11.2,0,0,0-2.81,8v26.68h7.48V174.07a4.69,4.69,0,0,1,1.1-3.36,4,4,0,0,1,3.1-1.17h6.61v-6.87h-7.78A10.21,10.21,0,0,0,204.23,165.6Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M260.54,164.4a18.18,18.18,0,0,0-9.81-2.58,19,19,0,0,0-10.16,2.62,17.52,17.52,0,0,0-6.51,7.09,21.82,21.82,0,0,0-2.26,10,23.6,23.6,0,0,0,2,9.9,17,17,0,0,0,5.89,7.14,15.71,15.71,0,0,0,9.08,2.63,14.9,14.9,0,0,0,6.33-1.26,14.7,14.7,0,0,0,4.53-3.24,20,20,0,0,0,1.89-2.41v6.06h7.54v-19a21.61,21.61,0,0,0-2.22-9.85A17.44,17.44,0,0,0,260.54,164.4Zm-16,6a10.48,10.48,0,0,1,6-1.68,10.11,10.11,0,0,1,5.77,1.65,10.86,10.86,0,0,1,3.79,4.5,15.24,15.24,0,0,1,1.34,6.51,15.41,15.41,0,0,1-1.41,6.69,11.1,11.1,0,0,1-3.89,4.61,10.14,10.14,0,0,1-5.74,1.65,10.29,10.29,0,0,1-6-1.68,10.85,10.85,0,0,1-3.76-4.57,16.82,16.82,0,0,1,0-13.11A10.89,10.89,0,0,1,244.58,170.37Z" transform="translate(-31.94 -97.82)"/> <path class="cls-1" d="M298,155a4,4,0,0,1,3.13-1.16h8V147h-9.21a10.25,10.25,0,0,0-7.71,2.93,11.21,11.21,0,0,0-2.8,8v4.74h-6.09v6.87h6.09v30.78h7.54V169.54h10.81v-6.87H296.88v-4.31A4.84,4.84,0,0,1,298,155Z" transform="translate(-31.94 -97.82)"/> <g class="cls-3"> <polygon class="cls-4" points="38.7 58.59 47.94 58.59 47.94 95.2 38.7 95.2 38.7 102.5 64.86 102.5 64.86 95.2 55.69 95.2 55.69 58.59 64.86 58.59 64.86 51.29 38.7 51.29 38.7 58.59"/> <path class="cls-5" d="M122.51,191.36a5.89,5.89,0,0,1-1.51-4.18v-38.1h-7.75v37.24a15.56,15.56,0,0,0,1.61,7.11,12.39,12.39,0,0,0,4.6,5,13.17,13.17,0,0,0,7,1.84H140V193H126.5A5.15,5.15,0,0,1,122.51,191.36Z" transform="translate(-31.94 -97.82)"/> <path class="cls-6" d="M179.58,178.65a14.94,14.94,0,0,0-6.57-1.31H166.3a4.13,4.13,0,0,1-3.17-1.14,3.7,3.7,0,0,1-1.1-2.67,4,4,0,0,1,1.07-2.79,3.73,3.73,0,0,1,2.93-1.16h16.05V162.7H165.41a10.41,10.41,0,0,0-5.64,1.56,10.91,10.91,0,0,0-3.83,4,11.94,11.94,0,0,0,.11,11.35,9.56,9.56,0,0,0,4.16,3.69,14.3,14.3,0,0,0,6.09,1.23h7a4.58,4.58,0,0,1,2.41.6,3.53,3.53,0,0,1,1.44,1.53,4.61,4.61,0,0,1,.49,2.11,4.89,4.89,0,0,1-.55,2.28,4.36,4.36,0,0,1-1.6,1.73,4.76,4.76,0,0,1-2.53.66H155.72v6.87h18a10.83,10.83,0,0,0,6-1.66,11.88,11.88,0,0,0,4-4.33,12.07,12.07,0,0,0,1.44-5.77,12.24,12.24,0,0,0-1.42-6.09A9.31,9.31,0,0,0,179.58,178.65Z" transform="translate(-31.94 -97.82)"/> <path class="cls-7" d="M204.23,165.63a11.21,11.21,0,0,0-2.81,8v26.68h7.48V174.1a4.68,4.68,0,0,1,1.1-3.35,4,4,0,0,1,3.1-1.17h6.61V162.7h-7.78A10.21,10.21,0,0,0,204.23,165.63Z" transform="translate(-31.94 -97.82)"/> <path class="cls-8" d="M260.54,164.44a18.1,18.1,0,0,0-9.81-2.59,19,19,0,0,0-10.16,2.62,17.52,17.52,0,0,0-6.51,7.09,21.82,21.82,0,0,0-2.26,10,23.6,23.6,0,0,0,2,9.9,17,17,0,0,0,5.89,7.14,15.71,15.71,0,0,0,9.08,2.64,14.9,14.9,0,0,0,6.33-1.27,14.54,14.54,0,0,0,4.53-3.24,19.22,19.22,0,0,0,1.89-2.41v6.06h7.54v-19a21.61,21.61,0,0,0-2.22-9.85A17.35,17.35,0,0,0,260.54,164.44Zm-16,6a10.49,10.49,0,0,1,6-1.69,10.18,10.18,0,0,1,5.77,1.65,10.86,10.86,0,0,1,3.79,4.5,15.24,15.24,0,0,1,1.34,6.51,15.41,15.41,0,0,1-1.41,6.69,11.1,11.1,0,0,1-3.89,4.61,10.14,10.14,0,0,1-5.74,1.65,10.29,10.29,0,0,1-6-1.68,10.85,10.85,0,0,1-3.76-4.57,16.79,16.79,0,0,1,0-13.1A10.77,10.77,0,0,1,244.58,170.41Z" transform="translate(-31.94 -97.82)"/> <path class="cls-9" d="M298,155a4,4,0,0,1,3.13-1.16h8V147h-9.21a10.25,10.25,0,0,0-7.71,2.93,11.21,11.21,0,0,0-2.8,8v4.74h-6.09v6.87h6.09v30.78h7.54V169.54h10.81v-6.87H296.88v-4.31A4.84,4.84,0,0,1,298,155Z" transform="translate(-31.94 -97.82)"/> </g> <g> <path class="cls-10" d="M116.44,119.17h-4.28v12.37h4.28a6,6,0,0,0,6.35-6.33A6,6,0,0,0,116.44,119.17Zm5.17,6a4.9,4.9,0,0,1-5.17,5.19h-3.1V120.29h3.1A4.85,4.85,0,0,1,121.61,125.22Z" transform="translate(-31.94 -97.82)"/> <rect class="cls-10" x="114.77" y="21.36" width="1.16" height="12.36"/> <path class="cls-10" d="M177.32,126h4.29v3.23a5.45,5.45,0,0,1-3.62,1.34,5,5,0,0,1-5.32-5.21,5.29,5.29,0,0,1,1.51-3.86,5.24,5.24,0,0,1,3.81-1.43,5.67,5.67,0,0,1,3.87,1.53l.08.08.7-.76-.08-.08a6.83,6.83,0,0,0-9.25-.09,6.26,6.26,0,0,0-1.78,4.63,6,6,0,0,0,6.46,6.3,6.56,6.56,0,0,0,4.72-2l0,0V125h-5.42Z" transform="translate(-31.94 -97.82)"/> <rect class="cls-10" x="174.95" y="21.36" width="1.16" height="12.36"/> <polygon class="cls-10" points="200 22.43 204.44 22.43 204.44 33.72 205.62 33.72 205.62 22.43 210.06 22.43 210.06 21.37 200 21.37 200 22.43"/> <path class="cls-10" d="M270.84,119.17h-1.19l-5.54,12.21-.08.16h1.28l1.33-3h7.19l1.35,3h1.28l-5.59-12.3Zm2.52,8.29h-6.25l3.13-7Z" transform="translate(-31.94 -97.82)"/> <polygon class="cls-10" points="268.96 32.61 268.96 21.36 267.78 21.36 267.78 33.72 275.88 33.72 275.88 32.61 268.96 32.61"/> </g> <g> <polygon class="cls-10" points="126.49 43.56 122.24 53.89 121.23 53.89 119.33 49.06 117.82 45 116.32 49.02 114.39 53.89 113.38 53.89 109.17 43.56 110.17 43.56 113.86 52.96 117.55 43.56 118.08 43.56 121.75 52.96 125.47 43.56 126.49 43.56"/> <path class="cls-10" d="M187.75,142.64a6.58,6.58,0,0,0-4.36-1.41c-4.19,0-6.07,2.65-6.07,5.29s1.91,5.33,6.07,5.33,6.07-2.75,6.08-5.31A5,5,0,0,0,187.75,142.64Zm-4.36,8.48c-3.5,0-5.12-2.37-5.14-4.59a4.35,4.35,0,0,1,1.48-3.39,5.52,5.52,0,0,1,3.66-1.2c3.57,0,5.18,2.31,5.18,4.59S187,151.12,183.39,151.12Z" transform="translate(-31.94 -97.82)"/> <path class="cls-10" d="M214.84,147.73h.36a4.22,4.22,0,0,0,2.56-.91,2.82,2.82,0,0,0,1-2.17v0c0-1.54-1.26-3.21-4-3.21h-5.3v10.29h.94v-3.9h3.27l.05,0,4.11,3.85h1.22Zm-4.41-.7v-4.92h4.36a3.19,3.19,0,0,1,2.13.7,2.3,2.3,0,0,1,.8,1.76c0,1.57-1.13,2.46-3,2.46Z" transform="translate(-31.94 -97.82)"/> <polygon class="cls-10" points="214.97 53.81 214.97 53.85 213.78 53.85 207.46 48.79 207.46 53.84 206.52 53.84 206.52 43.56 207.46 43.56 207.46 48.25 213.3 43.56 214.42 43.56 214.42 43.62 208.51 48.38 208.36 48.49 214.97 53.81"/> <path class="cls-10" d="M274.86,149c0,2.66-3.64,2.88-4.76,2.88-1.75,0-4-.59-4.93-2.23l.83-.35c.72,1.22,2.61,1.86,4.1,1.86,1.14,0,3.82-.21,3.82-2.17,0-1.57-2-1.91-3.94-2.23-2.09-.34-4.46-.73-4.46-2.64a2.18,2.18,0,0,1,.78-1.75,6,6,0,0,1,3.8-1.09c1.82,0,3.26.3,4.4,1.74l-.76.39h0c-.86-1.2-2.25-1.38-3.63-1.39-.36,0-3.63.05-3.63,2.09,0,1.27,1.45,1.59,3.68,1.95l.13,0C272.53,146.4,274.86,146.78,274.86,149Z" transform="translate(-31.94 -97.82)"/> </g> </g> </svg></div> -->
+             <div class="imadraf-nav-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1724" height="516" viewBox="0 0 1724 516">
                     <g id="Groupe_2" data-name="Groupe 2" transform="translate(-355.104 -419.476)">
                       <circle id="Ellipse_1" data-name="Ellipse 1" cx="43.5" cy="43.5" r="43.5" transform="translate(1992.104 733.476)" fill="var(--P-color)"/>
@@ -56,13 +56,13 @@
                     </g>
                   </svg>
 
-            </div>
-            <ul class="ilsraf-nav-list">
-                <li class="ilsraf-list-element"> <a href="#" class="ilsraf-para ilsraf-element-content active">Home</a></li>
-                <li class="ilsraf-list-element"> <a href="#" class="ilsraf-para ilsraf-element-content">Portfolio</a></li>
-                <li class="ilsraf-list-element"> <a href="#" class="ilsraf-para ilsraf-element-content">Gallery</a></li>
-                <li class="ilsraf-list-element"> <a href="#" class="ilsraf-para ilsraf-element-content">About</a></li>
-                <li class="ilsraf-list-element"> <a href="#" class="ilsraf-para ilsraf-element-content">Contact</a></li>
+            </div> 
+            <ul class="imadraf-nav-list">
+                <!--<li class="imadraf-list-element"> <a href="#" class="imadraf-para imadraf-element-content active">Home</a></li>
+                <li class="imadraf-list-element"> <a href="#" class="imadraf-para imadraf-element-content">Portfolio</a></li>
+                <li class="imadraf-list-element"> <a href="#" class="imadraf-para imadraf-element-content">Gallery</a></li>
+                <li class="imadraf-list-element"> <a href="#" class="imadraf-para imadraf-element-content">About</a></li>
+                <li class="imadraf-list-element"> <a href="#" class="imadraf-para imadraf-element-content">Contact</a></li> -->
             </ul>
             <div id='menu' class="burger">
                 <div class="line line1"></div>
@@ -74,17 +74,17 @@
     <div class="scroll-nav">
         <ul class="scroll-links">
             <li> <a class="scrol-to" href="#" data-section="NAV"><i class="fas fa-home"></i></a></li>
+            <li> <a class="scrol-to" href="#" data-section="ABOUT"><i class="fas fa-address-card"></i></a></li>
             <li> <a class="scrol-to" href="#" data-section="PORTFOLIO"><i class="fas fa-pencil-ruler"></i></a></li>
             <li> <a class="scrol-to" href="#" data-section="GALLERY"><i class="fas fa-images"></i></a></li>
-            <li> <a class="scrol-to" href="#" data-section="ABOUT"><i class="fas fa-address-card"></i></a></li>
             <li> <a class="scrol-to" href="#" data-section="CONTACT"><i class="fas fa-comments"></i></a></li>
         </ul>
     </div>
     <div id="option-modal">
-        <p class="ilsraf-para">CLICK HERE !</p> <i id="OptionModalClose" class="far fa-times-circle"></i></div>
+        <p class="imadraf-para">CLICK HERE !</p> <i id="OptionModalClose" class="far fa-times-circle"></i></div>
     <div id="whatsap-modal">
         <div class="border-whatsap">
-            <p class="ilsraf-para">WhatsApp CHAT</p>
+            <p class="imadraf-para">WhatsApp CHAT</p>
         </div>
     </div>
 
@@ -93,7 +93,7 @@
         <div class="toggle-ico"> <i class="fas fa-cog myiconsetting"></i></div>
         <div class="setting-content">
             <div class="color-box mb-2 mt-2">
-                <h4 class="ilsraf-moy">Colors</h4>
+                <h4 class="imadraf-moy">Colors</h4>
                 <ul class="colors-list">
                     <li data-colors="#fd0054" data-bg="#ca0043"></li>
                     <li class="active" data-colors="#44bd32" data-bg="#359527"></li>
@@ -104,7 +104,7 @@
                 </ul>
             </div>
             <div class="color-box mb-2">
-                <h4 class="ilsraf-moy">Mode</h4>
+                <h4 class="imadraf-moy">Mode</h4>
                 <div class="mode-list"> <i data-colors="#fff" data-bg="#101010" class="fas fa-sun active"></i> <i data-colors="#101010" data-bg="#fff" class="fas fa-moon"></i></div>
             </div>
         </div>
@@ -112,38 +112,46 @@
 
 
     <div class="master" id="MASTER">
-        <div class="master-content ilsraf-container">
-            <h1 class="ilsraf-title mb-1" data-aos="fade-right">Hello <span>!</span> <br>I'm Imad Rafai</h1>
-            <h2 class="ilsraf-sub mb-1" data-aos="fade-left">Web designer & developer</h2>
-            <p class="ilsraf-para mb-2" data-aos="fade-right">Looking for a design ? Already have one ? or you want to create your own website, you are in the right place. <br>See my portfolio & contact me</p>
+        <div class="master-content imadraf-container">
+            <h1 class="imadraf-title mb-1" data-aos="fade-right">Hello <span>!</span> <br>I'm Imad RAFAI</h1>
+            <h2 class="imadraf-sub mb-1" data-aos="fade-left"> A developper who likes the word GEEK </h2>
+            <p class="imadraf-para mb-2" data-aos="fade-right">Please take your time seeing my portfolio & contact me</p>
             <div class="master-btns">
-                <a href="#" class="ilsraf-btn ilsraf-btn-P scrol-to" data-section="PORTFOLIO" data-aos="fade-right">Portfolio</a>
-                <a href="#" class="ilsraf-btn ilsraf-btn-S" data-aos="fade-left">Contact</a>
+                <a href="#" class="imadraf-btn imadraf-btn-P scrol-to" data-section="PORTFOLIO" data-aos="fade-right">Portfolio</a>
+                <a href="#" class="imadraf-btn imadraf-btn-S" data-aos="fade-left">Contact</a>
             </div>
         </div>
     </div>
     <div class="why py-4">
-        <div class="why-content ilsraf-container">
-            <h2 class="ilsraf-sub mb-2" data-aos="fade-right">Why Web Design Is Important ?</h2>
-            <p class="ilsraf-para mb-1" data-aos="fade-up">If your website looks unappealing or outdated, your audience will immediately have a negative impression of your business. They won’t find your website appealing, which deters them from your page. You’ll miss out on leads because they’ll leave
-                your page for a competitor’s page.</p>
-            <p class="ilsraf-para mb-3" data-aos="fade-up"> Web design is important because it impacts how your audience perceives your brand. The impression you make on them can either get them to remain on your page and learn about your business or leave your page and turn to a competitor. A good
-                web design helps you keep your leads on your page.</p>
-            <h2 class="ilsraf-sub mb-4" data-aos="fade-right">Good Design Fundamentals</h2>
+        <div class="why-content imadraf-container" id="ABOUT">
+            <div class="head-cont mb-4">
+                <div data-aos="fade-right" class="head-strok"></div>
+            <h2 class="imadraf-header mr-2 ml-2" data-aos="fade-right">Who am I ?</h2>
+            <div class="head-line" id="headLine4"></div>
+            </div>
+
+            <p class="imadraf-para mb-1" data-aos="fade-up">
+                I am Imad RAFAI (I will be soon 22 yo !), <img src="https://freepngimg.com/thumb/emoji/4-2-smiling-face-with-sunglasses-cool-emoji-png.png" style="position:relative;top:10px;width:35px;height:35px;"  /> a moroccan <img src="img/emojis/morocco.png" style="position:relative;top:10px;width:35px;height:35px;"  /> student living in Grenoble, France <img src="img/emojis/france.png" style="position:relative;top:10px;width:35px;height:35px;"  />.
+            </p>
+            
+            <p class="imadraf-para mb-3" data-aos="fade-up"> Currently, I am in my 2nd year at ENSIMAG-INP (the National School for Computer Science and Applied Mathematics in France).  I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding or designing (and of course when I don't have any classes to take), you'll find me eating, watching tutorials, playing strategy or FPS games. Since my younger age, I used to write articles in my blog (you can find <a href="http://www.ar-ency.blogspot.com" target="_blank">HERE</a>, I stopped posting articles in 2015.). This blog had given to me the big passion that I have for web development and computer science. I started learning my first programming languages at an early age (<img src="img/emojis/js.png" style="position:relative;top:10px;width:35px;height:35px;"  /> JAVASCRIPT is LOVE <img src="img/emojis/heart.png" style="position:relative;top:10px;width:35px;height:35px;"  />).
+
+            </p>
+            <p class="imadraf-para mb-3" style="font-size:15px;" data-aos="fade-up">
+                 *The emojis used above were mostly taken from <a href="Flaticon.com">Flaticon.com</a>.
+            </p>
+            <!--
+            <h2 class="imadraf-sub mb-4" data-aos="fade-right">Imadostoos</h2>
             <div class="why-flex">
                 <div class="why-element" data-aos="fade-up">
                     <a href="#" data-izimodal-open="#modal-1" data-izimodal-transitionin="fadeInDown">
                         <div class="circle">
-                            <p class="ilsraf-moy">Usability</p>
+                            <p class="imadraf-moy">Usability</p>
                             <div id="modal-1" class="why-modal">
-                                <h3 class="ilsraf-moy mb-2 text-center">Usability</h3>
-                                <p class="ilsraf-para">Design has a huge impact on how easy it is for visitors to find what they’re looking for from your website design. Research shows that 86% of your website visitors want to see product or service information, 65% look for
-                                    contact information, and 52% seek an About page for you business.</p>
-                                <p class="ilsraf-para"> Your web design should make these things as easy to find as possible - otherwise you'll frustrate your users and potentially drive them away. Consider using standard conventions, like putting your primary services in your
-                                    main navigation, and featuring your phone number in the upper-right-hand corner of your site.</p>
-                                <p class="ilsraf-para">Even if your website functions perfectly, a bad website design may make users feel that it’s harder to use or find what they need. Two Japanese researchers actually conducted a study on this. They created two ATMs that
-                                    functioned identically, but one was attractively designed, and the second was not. Users reported that the aesthetically-pleasing ATM actually worked better. So good web design impacts both usability and our perception
-                                    of usability too.</p>
+                                <h3 class="imadraf-moy mb-2 text-center">Usability</h3>
+                                <p class="imadraf-para"> Imadostoos </p>
+                                <p class="imadraf-para"> Imadostoos </p>
+                                <p class="imadraf-para"> Imadostoos </p>
                             </div>
                         </div>
                     </a>
@@ -151,32 +159,27 @@
                 <div class="why-element" data-aos="fade-up">
                     <a href="#" data-izimodal-open="#modal-2" data-izimodal-transitionin="fadeInDown">
                         <div class="circle">
-                            <p class="ilsraf-moy">Navigation</p>
+                            <p class="imadraf-moy">Navigation</p>
                             <div id="modal-2" class="why-modal">
-                                <h3 class="ilsraf-moy mb-2 text-center">Navigation</h3>
-                                <p class="ilsraf-para"> Your navigation is one of the most important elements of your website design, so how it’s designed is critical. Here, many designers actually consider the psychology behind the design by applying Hick’s Law.</p>
-                                <p class="ilsraf-para">Hick’s Law essentially says that the more choices you give someone, the longer it takes for him/her to make a decision. It’s often summarized as, “Keep it Simple, Stupid.”</p>
-                                <p class="ilsraf-para">So when we apply Hick’s Law to website navigation, we want to keep the choices as simple as possible to make it easier for users to decide where to go. As a good rule of thumb, try to limit the number of options to seven
-                                    or less.</p>
-                                <p class="ilsraf-para mb-2">Take, for example, this office furniture company. Their product menu has 11 different options - which is a lot of choices. If you look closer, you'll see that they have multiple similar categories like "conference chairs,"
-                                    "task chairs," "guest chairs" and "other seating." They could simplify their navigation by combining all those categories into a single option called, "Chairs."</p> <img src="img/Why/1.png" class="w100" alt=""></div>
+                                <h3 class="imadraf-moy mb-2 text-center">Navigation</h3>
+                                <p class="imadraf-para"> Imadostoos </p>
+                                <p class="imadraf-para"> Imadostoos </p>
+                                <p class="imadraf-para"> Imadostoos </p>
+                                <p class="imadraf-para mb-2">Imadostoos</p> <img src="" class="w100" alt=""></div>
                         </div>
                     </a>
                 </div>
                 <div class="why-element" data-aos="fade-up">
                     <a href="#" data-izimodal-open="#modal-3" data-izimodal-transitionin="fadeInDown">
                         <div class="circle">
-                            <p class="ilsraf-moy">Conversion</p>
+                            <p class="imadraf-moy">Conversion</p>
                             <div id="modal-3" class="why-modal">
-                                <h3 class="ilsraf-moy mb-2 text-center">Conversion</h3>
-                                <p class="ilsraf-para"> Good web design helps guide your users’ eyes and tell them where you want them to look. On your website, your design can draw attention to special offers, highlight calls to action, and help users identify buttons and clickable
-                                    elements. All these things can help drive users to take the actions you want.</p>
-                                <p class="ilsraf-para mb-2"> There are many different ways to optimize your visual design for conversion, but let’s take a look at couple common examples.</p> <img src="img/Why/apple.png" class="w100 mb-2" alt="">
-                                <p class="ilsraf-para">One of the most effective ways to draw users' attention toward a desired action is to use white space - or open space - around your call to action.</p>
-                                <p class="ilsraf-para mb-2">It's hard to talk about white space without mentioning Apple. They're known for clean designs and simple, bold images (like this iPhone) surrounded by a ton of white space. The message here is very clear: they want you
-                                    to click on this phone - and with almost nothing else on the page to distract you, it's almost hard not to do.</p> <img src="img/Why/amazon.png" class="w100 mb-2" alt="">
-                                <p class="ilsraf-para"> On the opposite end of the spectrum, take a site like Amazon. This page is crowded with information and product options, but one thing always jumps out: the yellow Add to Cart button. Even on a busy page, contrasting colors
-                                    and styles create a visual hierarchy that draws your eyes toward that all-important conversion button.</p>
+                                <h3 class="imadraf-moy mb-2 text-center">Conversion</h3>
+                                <p class="imadraf-para"> Imadostoos </p>
+                                <p class="imadraf-para"> Imadostoos </p>
+                                <p class="imadraf-para"> Imadostoos </p>
+                                <p class="imadraf-para mb-2"></p> <img src="" class="w100 mb-2" alt="">
+                                <p class="imadraf-para"> </p>
                             </div>
                         </div>
                     </a>
@@ -184,14 +187,12 @@
                 <div class="why-element" data-aos="fade-up">
                     <a href="#" data-izimodal-open="#modal-4" data-izimodal-transitionin="fadeInDown">
                         <div class="circle">
-                            <p class="ilsraf-moy">Branding</p>
+                            <p class="imadraf-moy">Branding</p>
                             <div id="modal-4" class="why-modal">
-                                <h3 class="ilsraf-moy mb-2 text-center">Branding</h3>
-                                <p class="ilsraf-para mb-2"> As we mentioned earlier, 3 out of 4 users will judge your business’s credibility based on your website design. Designs that look modern and professional tend to encourage trust. Meanwhile, a poorly designed website might
-                                    make someone doubt your legitimacy. For example, if you were looking for a used car, which of these businesses would you trust more?</p> <img src="img/Why/aico.png" class="mb-2 w100" alt=""> <img src="img/Why/ling.png"
+                                <h3 class="imadraf-moy mb-2 text-center">Branding</h3>
+                                <p class="imadraf-para mb-2"> </p> <img src="" class="mb-2 w100" alt=""> <img src=""
                                     class="w100 mb-2" alt="">
-                                <p class="ilsraf-para">Another way that good web design improves trust is through brand consistency. Especially if you have a well-established brand, your customers probably recognize things like your logo, colors, or style. Your website design
-                                    should reflect your brand and help reassure people who know you that they’re in the right place</p>
+                                <p class="imadraf-para"></p>
                             </div>
                         </div>
                     </a>
@@ -199,13 +200,11 @@
                 <div class="why-element" data-aos="fade-up">
                     <a href="#" data-izimodal-open="#modal-5" data-izimodal-transitionin="fadeInDown">
                         <div class="circle">
-                            <p class="ilsraf-moy">Responsive</p>
+                            <p class="imadraf-moy">Responsive</p>
                             <div id="modal-5" class="why-modal">
-                                <h3 class="ilsraf-moy mb-2 text-center">Responsive</h3>
-                                <p class="ilsraf-para"> The majority of online searches now happen on mobile devices, and that trend is only going to continue. And with Google now pushing a mobile-first approach, a mobile-friendly website design is a necessity to stay relevant
-                                    and get found online. In fact, 85% of adults think a company's mobile website design should be as good or better than their desktop website design.</p>
-                                <p class="ilsraf-para">Too often, web designers get caught up in making a website look perfect on desktop - like they would a brochure. But good website design must go well beyond a single screen. In today's mobile-friendly world, you need a
-                                    responsive website design that will make your website look and function great on devices of all sizes.</p>
+                                <h3 class="imadraf-moy mb-2 text-center">Responsive</h3>
+                                <p class="imadraf-para"></p>
+                                <p class="imadraf-para"></p>
                             </div>
                         </div>
                     </a>
@@ -213,92 +212,215 @@
                 <div class="why-element" data-aos="fade-up">
                     <a href="#" data-izimodal-open="#modal-6" data-izimodal-transitionin="fadeInDown">
                         <div class="circle">
-                            <p class="ilsraf-moy">SEO</p>
+                            <p class="imadraf-moy">SEO</p>
                             <div id="modal-6" class="why-modal">
-                                <h3 class="ilsraf-moy mb-2 text-center">SEO</h3>
-                                <p class="ilsraf-para">Finally, great website design isn’t just about the visual elements on the front end. How the design comes together behind-the-scenes can deeply affect things like search engine optimization.</p>
-                                <p class="ilsraf-para">A website design may look great on the outside, but if it has cumbersome coding or too many large images that make it slow to load, that can drive visitors away and negatively impact SEO marketing. Web designers can also
-                                    sometimes get carried away with clever designs or technologies that look great, but ultimately hurt the optimization of a site.</p>
+                                <h3 class="imadraf-moy mb-2 text-center">SEO</h3>
+                                <p class="imadraf-para"></p>
+                                <p class="imadraf-para"></p>
                             </div>
                         </div>
                     </a>
                 </div>
+            </div> -->
+        </div>
+        <div class="about page-section py-4" >
+        <div class="about-content imadraf-container">
+           <!-- <div class="head-cont mb-4">
+                <div data-aos="fade-right" class="head-strok"></div>
+                <h2 class="imadraf-header mr-2 ml-2">About</h2>
+                <div class="head-line" id="headLine4"></div>
+            </div>
+            <p class="imadraf-para mb-2" data-aos="fade-up"> My name is ILYES RAFAI, I'm 25 years old, I was born in Guercif city in the Oriental region, northeast of the Moroccan kingdom.</p>
+            <p class="imadraf-para mb-2" data-aos="fade-up"> I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding or designing, you'll find me eating, watching tutorials, playing strategies games or listening to music specially Cheb Hasni's musics.</p>
+            <p class="imadraf-para mb-4" data-aos="fade-up"> I do the work I do because I love it. I like the industry. I like the people I meet. I like to talk shop. I embrace the nerd. I like to make the web a better place. Hopefully we cross paths in the real world someday and we can make it a better
+                place together.</p>
+             <div class="skills mb-4">
+                <h2 class="imadraf-sub text-center mb-4" data-aos="fade-right">Skills</h2>
+                <div class="skill mb-4">
+                    <div class="meft meft1">
+                        <div class="flex mb-2">
+                            <p class="imadraf-para">Front-End</p>
+                            <p class="imadraf-para percent">90%</p>
+                        </div>
+                    </div>
+                    <div class="number">
+                        <div class="progress progress1"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="meft meft2">
+                        <div class="flex mb-2">
+                            <p class="imadraf-para">Back-End</p>
+                            <p class="imadraf-para percent">60%</p>
+                        </div>
+                    </div>
+                    <div class="number">
+                        <div class="progress progress2"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="meft meft3">
+                        <div class="flex mb-2">
+                            <p class="imadraf-para">Eating</p>
+                            <p class="imadraf-para percent">100%</p>
+                        </div>
+                    </div>
+                    <div class="number">
+                        <div class="progress progress3"></div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="timeline">
+                <h2 class="imadraf-sub text-center mb-4" data-aos="fade-right">Education</h2>
+                <div class="timeline-content">
+                    <div class="time">
+                        <p class="imadraf-para year">2015</p>
+                        <div class="left" data-aos="fade-right">
+                            <p class="title">O.F.P.P.T SIDI MAFA</p>
+                            <p class="description">Diploma in commercial refrigeration and air conditioning</p>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="time">
+                        <p class="imadraf-para year">2017</p>
+                        <div class="right" data-aos="fade-left">
+                            <p class="title">E.M.I.G</p>
+                            <p class="description">Diploma in Computerized Management</p>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="time">
+                        <p class="imadraf-para year">2019</p>
+                        <div class="left" data-aos="fade-right">
+                            <p class="title">E.M.I.G</p>
+                            <p class="description">Graduate in computer development</p>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="time">
+                        <p class="imadraf-para year">2021</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    </div>
     <div class="services py-4">
-        <div class="services-content ilsraf-container">
+        <div class="services-content imadraf-container">
             <div class="head-cont mb-4">
                 <div data-aos="fade-right" class="head-strok"></div>
-                <h2 class="ilsraf-header mr-2 ml-2">Services</h2>
+                <h2 class="imadraf-header mr-2 ml-2">Skills/Languages</h2>
                 <div class="head-line" id="headLine1"></div>
             </div>
-            <p class="ilsraf-para" data-aos="fade-up"> We offer the full spectrum of services to help clients work better. Everything from creating standards excellent web designs templates to creating, hosting and managing full websites, and that's all to work in more effective ways, assessing
-                how you’re doing, and helping you perform even better in future.</p>
+            <p class="imadraf-para" data-aos="fade-up">  </p>
             <div class="flex py-4">
                 <div class="service" data-aos="fade-up">
                     <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <g id="Layer_1-2" data-name="Layer 1"> <path class="cls-1" d="M51.27,19.27a32,32,0,1,0,32,32A32,32,0,0,0,51.27,19.27Zm-10.46,42a2,2,0,0,1-1.05-.3L29.13,54.42,29,54.25a4.22,4.22,0,0,1,0-6l.17-.17,10.63-6.55a2,2,0,1,1,2.1,3.4L31.74,51.21a.2.2,0,0,0,0,.11l10.12,6.25a2,2,0,0,1-1,3.7ZM46.64,69a2,2,0,0,1-1.87,1.29,1.94,1.94,0,0,1-.71-.13,2,2,0,0,1-1.16-2.58l13-34A2,2,0,1,1,59.64,35ZM73.58,54.25l-.17.17L62.78,61a2,2,0,0,1-1.05.3,2,2,0,0,1-1-3.7L70.8,51.33a.24.24,0,0,0,0-.12L60.68,45a2,2,0,0,1,2.1-3.4l10.63,6.55.17.17A4.22,4.22,0,0,1,73.58,54.25Z" transform="translate(-14.87 -14.87)"/> </g> </svg></div>
-                    <h3 class="ilsraf-moy">Developing</h3>
-                    <p class="ilsraf-para">We transform your ideas into a clean code to facilitate user experience</p>
+                    <h3 class="imadraf-moy">Java</h3>
+                    <p class="imadraf-para"></p>
                 </div>
                 <div class="service" data-aos="fade-up">
                     <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <g id="Layer_1-2" data-name="Layer 1"> <g> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <path class="cls-1" d="M65.14,33.14a32,32,0,1,0,32,32A32,32,0,0,0,65.14,33.14Zm20,46a4,4,0,0,1-4,4h-32a4,4,0,0,1-4-4v-22h40Zm0-24.5h-40v-5.5a4,4,0,0,1,4-4h32a4,4,0,0,1,4,4Zm-4,22.5h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm-20,0h-12v18h12Z" transform="translate(-28.75 -28.75)"/> </g> <g> <rect class="cls-1" x="20.39" y="32.39" width="12" height="18"/> <rect class="cls-1" x="36.39" y="32.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="36.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="40.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="44.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="48.39" width="16" height="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="2.5"/> </g> <g class="cls-2"> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="2.5"/> </g> <g> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="0.5"/> </g> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <rect class="cls-1" x="20.39" y="32.39" width="12" height="18"/> <rect class="cls-1" x="36.39" y="32.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="36.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="40.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="44.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="48.39" width="16" height="2"/> </g> </svg></div>
-                    <h3 class="ilsraf-moy">Design</h3>
-                    <p class="ilsraf-para">Creating modern user interfaces with the last design tools</p>
+                    <h3 class="imadraf-moy"> Python </h3>
+                    <p class="imadraf-para"></p>
                 </div>
                 <div class="service" data-aos="fade-up">
                     <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <path class="cls-1" d="M63.63,31.63a32,32,0,1,0,32,32A32,32,0,0,0,63.63,31.63Zm1.09,23.42a61.42,61.42,0,0,0-8,8.61l-6.24-6.24a18,18,0,0,0,8.39-8.23ZM50,45.89l8,2.74A17.13,17.13,0,0,1,50,56.55l-2.7-7.89L47,48l.11.23a5.23,5.23,0,0,0,2.35-2.53l-.23-.11Zm-1-.35A4.77,4.77,0,0,1,47,47.79l-1.14-3.34ZM60,75.71a6.63,6.63,0,0,1-1.14,1.53c-4.25,4.25-13,3.62-15.23,1.38,3-2,3.73-4.78,4.49-7h0A8,8,0,0,1,50,68.4a7.55,7.55,0,0,1,5.74-2.1,11.14,11.14,0,0,0,5.18,5.07A7.72,7.72,0,0,1,60,75.71Zm1.5-4.6v0a10.82,10.82,0,0,1-5.41-5.24,11,11,0,0,1,1-1.82h0c2.57-3.77,7.92-8.54,8-8.62h0c6.62-5.85,14.78-11.28,16.41-9.65S77.75,55.47,72,62.07h0c-.05.06-5,5.57-8.76,8.11l0,0A12.55,12.55,0,0,1,61.5,71.11Zm2.06-.6a61.18,61.18,0,0,0,8.64-8l5.11,5.12.71.7.58.58-8.1,8.53Zm18.56,5-5.2,5.19c-.86.87-2.51.61-3.68-.56l-.42-.42,8.1-8.53.64.64C82.73,73.05,83,74.7,82.12,75.56Z" transform="translate(-27.23 -27.23)"/> </svg></div>
-                    <h3 class="ilsraf-moy">Redesign</h3>
-                    <p class="ilsraf-para">We help you improve your website design with our experience</p>
+                    <h3 class="imadraf-moy">C</h3>
+                    <p class="imadraf-para"></p>
                 </div>
                 <div class="service" data-aos="fade-up">
                     <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <path class="cls-1" d="M55.17,23.17a32,32,0,1,0,32,32A32,32,0,0,0,55.17,23.17Zm16,46h-30A10,10,0,0,1,39.66,49.3a16,16,0,0,1,8.75-10.62h0a2,2,0,0,1,2.75,1.61v8.5a1.41,1.41,0,0,1-1.5,1.38H46.61c-1.47,0-1.88,1.13-.91,2.36l7.71,9.83a2.13,2.13,0,0,0,3.52,0l7.72-9.83c1-1.23.55-2.36-.92-2.36H60.67a1.41,1.41,0,0,1-1.5-1.38v-8.5a1.77,1.77,0,0,1,2.63-1.67,16,16,0,0,1,9.37,14.55,8,8,0,0,1,0,16Z" transform="translate(-18.78 -18.78)"/> </svg></div>
-                    <h3 class="ilsraf-moy">Hosting</h3>
-                    <p class="ilsraf-para">We give birth to your website in the most trustworthy hosting servers</p>
+                    <h3 class="imadraf-moy">Assembly</h3>
+                    <p class="imadraf-para"></p>
+                </div>
+            </div>
+            <div class="flex py-4">
+                <div class="service" data-aos="fade-up">
+                    <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <g id="Layer_1-2" data-name="Layer 1"> <path class="cls-1" d="M51.27,19.27a32,32,0,1,0,32,32A32,32,0,0,0,51.27,19.27Zm-10.46,42a2,2,0,0,1-1.05-.3L29.13,54.42,29,54.25a4.22,4.22,0,0,1,0-6l.17-.17,10.63-6.55a2,2,0,1,1,2.1,3.4L31.74,51.21a.2.2,0,0,0,0,.11l10.12,6.25a2,2,0,0,1-1,3.7ZM46.64,69a2,2,0,0,1-1.87,1.29,1.94,1.94,0,0,1-.71-.13,2,2,0,0,1-1.16-2.58l13-34A2,2,0,1,1,59.64,35ZM73.58,54.25l-.17.17L62.78,61a2,2,0,0,1-1.05.3,2,2,0,0,1-1-3.7L70.8,51.33a.24.24,0,0,0,0-.12L60.68,45a2,2,0,0,1,2.1-3.4l10.63,6.55.17.17A4.22,4.22,0,0,1,73.58,54.25Z" transform="translate(-14.87 -14.87)"/> </g> </svg></div>
+                    <h3 class="imadraf-moy">Javascript</h3>
+                    <p class="imadraf-para"></p>
+                </div>
+                <div class="service" data-aos="fade-up">
+                    <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <g id="Layer_1-2" data-name="Layer 1"> <g> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <path class="cls-1" d="M65.14,33.14a32,32,0,1,0,32,32A32,32,0,0,0,65.14,33.14Zm20,46a4,4,0,0,1-4,4h-32a4,4,0,0,1-4-4v-22h40Zm0-24.5h-40v-5.5a4,4,0,0,1,4-4h32a4,4,0,0,1,4,4Zm-4,22.5h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm-20,0h-12v18h12Z" transform="translate(-28.75 -28.75)"/> </g> <g> <rect class="cls-1" x="20.39" y="32.39" width="12" height="18"/> <rect class="cls-1" x="36.39" y="32.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="36.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="40.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="44.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="48.39" width="16" height="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="2.5"/> </g> <g class="cls-2"> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="2.5"/> </g> <g> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="0.5"/> </g> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <rect class="cls-1" x="20.39" y="32.39" width="12" height="18"/> <rect class="cls-1" x="36.39" y="32.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="36.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="40.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="44.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="48.39" width="16" height="2"/> </g> </svg></div>
+                    <h3 class="imadraf-moy">HTML5</h3>
+                    <p class="imadraf-para"></p>
+                </div>
+                <div class="service" data-aos="fade-up">
+                    <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <path class="cls-1" d="M63.63,31.63a32,32,0,1,0,32,32A32,32,0,0,0,63.63,31.63Zm1.09,23.42a61.42,61.42,0,0,0-8,8.61l-6.24-6.24a18,18,0,0,0,8.39-8.23ZM50,45.89l8,2.74A17.13,17.13,0,0,1,50,56.55l-2.7-7.89L47,48l.11.23a5.23,5.23,0,0,0,2.35-2.53l-.23-.11Zm-1-.35A4.77,4.77,0,0,1,47,47.79l-1.14-3.34ZM60,75.71a6.63,6.63,0,0,1-1.14,1.53c-4.25,4.25-13,3.62-15.23,1.38,3-2,3.73-4.78,4.49-7h0A8,8,0,0,1,50,68.4a7.55,7.55,0,0,1,5.74-2.1,11.14,11.14,0,0,0,5.18,5.07A7.72,7.72,0,0,1,60,75.71Zm1.5-4.6v0a10.82,10.82,0,0,1-5.41-5.24,11,11,0,0,1,1-1.82h0c2.57-3.77,7.92-8.54,8-8.62h0c6.62-5.85,14.78-11.28,16.41-9.65S77.75,55.47,72,62.07h0c-.05.06-5,5.57-8.76,8.11l0,0A12.55,12.55,0,0,1,61.5,71.11Zm2.06-.6a61.18,61.18,0,0,0,8.64-8l5.11,5.12.71.7.58.58-8.1,8.53Zm18.56,5-5.2,5.19c-.86.87-2.51.61-3.68-.56l-.42-.42,8.1-8.53.64.64C82.73,73.05,83,74.7,82.12,75.56Z" transform="translate(-27.23 -27.23)"/> </svg></div>
+                    <h3 class="imadraf-moy"> CSS3 </h3>
+                    <p class="imadraf-para"></p>
+                </div>
+                <div class="service" data-aos="fade-up">
+                    <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <path class="cls-1" d="M55.17,23.17a32,32,0,1,0,32,32A32,32,0,0,0,55.17,23.17Zm16,46h-30A10,10,0,0,1,39.66,49.3a16,16,0,0,1,8.75-10.62h0a2,2,0,0,1,2.75,1.61v8.5a1.41,1.41,0,0,1-1.5,1.38H46.61c-1.47,0-1.88,1.13-.91,2.36l7.71,9.83a2.13,2.13,0,0,0,3.52,0l7.72-9.83c1-1.23.55-2.36-.92-2.36H60.67a1.41,1.41,0,0,1-1.5-1.38v-8.5a1.77,1.77,0,0,1,2.63-1.67,16,16,0,0,1,9.37,14.55,8,8,0,0,1,0,16Z" transform="translate(-18.78 -18.78)"/> </svg></div>
+                    <h3 class="imadraf-moy">SQL/Oracle</h3>
+                    <p class="imadraf-para"></p>
+                </div>
+            </div>
+            <div class="flex py-4">
+                <div class="service" data-aos="fade-up">
+                    <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <g id="Layer_1-2" data-name="Layer 1"> <path class="cls-1" d="M51.27,19.27a32,32,0,1,0,32,32A32,32,0,0,0,51.27,19.27Zm-10.46,42a2,2,0,0,1-1.05-.3L29.13,54.42,29,54.25a4.22,4.22,0,0,1,0-6l.17-.17,10.63-6.55a2,2,0,1,1,2.1,3.4L31.74,51.21a.2.2,0,0,0,0,.11l10.12,6.25a2,2,0,0,1-1,3.7ZM46.64,69a2,2,0,0,1-1.87,1.29,1.94,1.94,0,0,1-.71-.13,2,2,0,0,1-1.16-2.58l13-34A2,2,0,1,1,59.64,35ZM73.58,54.25l-.17.17L62.78,61a2,2,0,0,1-1.05.3,2,2,0,0,1-1-3.7L70.8,51.33a.24.24,0,0,0,0-.12L60.68,45a2,2,0,0,1,2.1-3.4l10.63,6.55.17.17A4.22,4.22,0,0,1,73.58,54.25Z" transform="translate(-14.87 -14.87)"/> </g> </svg></div>
+                    <h3 class="imadraf-moy">Problem Solving</h3>
+                    <p class="imadraf-para"></p>
+                </div>
+                <div class="service" data-aos="fade-up">
+                    <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <g id="Layer_1-2" data-name="Layer 1"> <g> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <path class="cls-1" d="M65.14,33.14a32,32,0,1,0,32,32A32,32,0,0,0,65.14,33.14Zm20,46a4,4,0,0,1-4,4h-32a4,4,0,0,1-4-4v-22h40Zm0-24.5h-40v-5.5a4,4,0,0,1,4-4h32a4,4,0,0,1,4,4Zm-4,22.5h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm0-4h-16v2h16Zm-20,0h-12v18h12Z" transform="translate(-28.75 -28.75)"/> </g> <g> <rect class="cls-1" x="20.39" y="32.39" width="12" height="18"/> <rect class="cls-1" x="36.39" y="32.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="36.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="40.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="44.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="48.39" width="16" height="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="2.5"/> </g> <g class="cls-2"> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="2.5"/> </g> <g> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <rect class="cls-1" x="16.39" y="25.89" width="40" height="0.5"/> </g> <circle class="cls-1" cx="27.39" cy="21.39" r="2"/> <circle class="cls-1" cx="33.39" cy="21.39" r="2"/> <circle class="cls-1" cx="21.39" cy="21.39" r="2"/> <rect class="cls-1" x="20.39" y="32.39" width="12" height="18"/> <rect class="cls-1" x="36.39" y="32.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="36.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="40.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="44.39" width="16" height="2"/> <rect class="cls-1" x="36.39" y="48.39" width="16" height="2"/> </g> </svg></div>
+                    <h3 class="imadraf-moy">Blogging & Video Editing</h3>
+                    <p class="imadraf-para"></p>
+                </div>
+                <div class="service" data-aos="fade-up">
+                    <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <path class="cls-1" d="M63.63,31.63a32,32,0,1,0,32,32A32,32,0,0,0,63.63,31.63Zm1.09,23.42a61.42,61.42,0,0,0-8,8.61l-6.24-6.24a18,18,0,0,0,8.39-8.23ZM50,45.89l8,2.74A17.13,17.13,0,0,1,50,56.55l-2.7-7.89L47,48l.11.23a5.23,5.23,0,0,0,2.35-2.53l-.23-.11Zm-1-.35A4.77,4.77,0,0,1,47,47.79l-1.14-3.34ZM60,75.71a6.63,6.63,0,0,1-1.14,1.53c-4.25,4.25-13,3.62-15.23,1.38,3-2,3.73-4.78,4.49-7h0A8,8,0,0,1,50,68.4a7.55,7.55,0,0,1,5.74-2.1,11.14,11.14,0,0,0,5.18,5.07A7.72,7.72,0,0,1,60,75.71Zm1.5-4.6v0a10.82,10.82,0,0,1-5.41-5.24,11,11,0,0,1,1-1.82h0c2.57-3.77,7.92-8.54,8-8.62h0c6.62-5.85,14.78-11.28,16.41-9.65S77.75,55.47,72,62.07h0c-.05.06-5,5.57-8.76,8.11l0,0A12.55,12.55,0,0,1,61.5,71.11Zm2.06-.6a61.18,61.18,0,0,0,8.64-8l5.11,5.12.71.7.58.58-8.1,8.53Zm18.56,5-5.2,5.19c-.86.87-2.51.61-3.68-.56l-.42-.42,8.1-8.53.64.64C82.73,73.05,83,74.7,82.12,75.56Z" transform="translate(-27.23 -27.23)"/> </svg></div>
+                    <h3 class="imadraf-moy"> Machine Learning </h3>
+                    <p class="imadraf-para">  </p>
+                </div>
+                <div class="service" data-aos="fade-up">
+                    <div class="border serv"> <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.78 72.78"> <defs><style>.cls-1{fill:var(--P-color)}</style></defs> <path class="cls-1" d="M55.17,23.17a32,32,0,1,0,32,32A32,32,0,0,0,55.17,23.17Zm16,46h-30A10,10,0,0,1,39.66,49.3a16,16,0,0,1,8.75-10.62h0a2,2,0,0,1,2.75,1.61v8.5a1.41,1.41,0,0,1-1.5,1.38H46.61c-1.47,0-1.88,1.13-.91,2.36l7.71,9.83a2.13,2.13,0,0,0,3.52,0l7.72-9.83c1-1.23.55-2.36-.92-2.36H60.67a1.41,1.41,0,0,1-1.5-1.38v-8.5a1.77,1.77,0,0,1,2.63-1.67,16,16,0,0,1,9.37,14.55,8,8,0,0,1,0,16Z" transform="translate(-18.78 -18.78)"/> </svg></div>
+                    <h3 class="imadraf-moy">Algorithm optimisation</h3>
+                    <p class="imadraf-para"></p>
                 </div>
             </div>
         </div>
     </div>
     <div class="portfolio py-4 page-section" id="PORTFOLIO">
-        <div class="portfolio-content ilsraf-container">
+        <div class="portfolio-content imadraf-container">
             <div class="head-cont mb-4">
                 <div data-aos="fade-right" class="head-strok"></div>
-                <h2 class="ilsraf-header mr-2 ml-2">Portfolio</h2>
+                <h2 class="imadraf-header mr-2 ml-2">Projets réalisés</h2>
                 <div class="head-line" id="headLine2"></div>
             </div>
-            <p class="ilsraf-para" data-aos="fade-up"> See What We Can Do. Browse our web design and web developppement portfolio to get inspired and see what our talented team can deliver with our creative and well presented design templates and feel free to navigate our world of design and creativity.</p>
+            <p class="imadraf-para" data-aos="fade-up"> During my two years at ENSIMAG-INP, I had the opportunity to work on various projects in different languages :</p>
             <div class="flex py-4">
                 <div class="work">
                     <div class="overlay"></div> <img class="content" src="img/Work/BraveChefs.png" alt="">
                     <div class="action">
-                        <h4 class="ilsraf-moy">BraveChefs</h4> <a href="https://bravechef.netlify.app" class="ilsraf-moy" target="_blank"><span class="mr-1">&#9673;</span>Live demo</a></div>
+                        <h4 class="imadraf-moy">BraveChefs</h4> <a href="https://bravechef.netlify.app" class="imadraf-moy" target="_blank"><span class="mr-1">&#9673;</span>Live demo</a></div>
                 </div>
                 <div class="work">
                     <div class="overlay"></div> <img class="content" src="img/Work/Ebook.png" alt="">
                     <div class="action">
-                        <h4 class="ilsraf-moy">E -book</h4> <a href="https://bok.netlify.app" class="ilsraf-moy" target="_blank"><span class="mr-1">&#9673;</span>Live demo</a></div>
+                        <h4 class="imadraf-moy">E -book</h4> <a href="https://bok.netlify.app" class="imadraf-moy" target="_blank"><span class="mr-1">&#9673;</span>Live demo</a></div>
                 </div>
                 <div class="work">
                     <div class="overlay"></div> <img class="content" src="img/Work/Snackma.png" alt="">
                     <div class="action">
-                        <h4 class="ilsraf-moy">SNACKMA</h4> <a href="https://snackma.netlify.app" class="ilsraf-moy" target="_blank"><span class="mr-1">&#9673;</span>Live demo</a></div>
+                        <h4 class="imadraf-moy">SNACKMA</h4> <a href="https://snackma.netlify.app" class="imadraf-moy" target="_blank"><span class="mr-1">&#9673;</span>Live demo</a></div>
                 </div>
                 <div class="work">
                     <div class="overlay"></div> <img class="content" src="img/Work/Twings.png" alt="">
                     <div class="action">
-                        <h4 class="ilsraf-moy">Twings</h4> <a href="https://twings.netlify.app" class="ilsraf-moy" target="_blank"><span class="mr-1">&#9673;</span>Live demo</a></div>
+                        <h4 class="imadraf-moy">Twings</h4> <a href="https://twings.netlify.app" class="imadraf-moy" target="_blank"><span class="mr-1">&#9673;</span>Live demo</a></div>
                 </div>
             </div>
-            <p class="ilsraf-para last-p mb-2" data-aos="fade-up">Working to deliver long term sustainable value to our clients and making a difference in what we do.</p> <a href="#" class="ilsraf-btn ilsraf-btn-P" data-aos="fade-up">See all</a></div>
+            <p class="imadraf-para last-p mb-2" data-aos="fade-up">Working to deliver long term sustainable value to our clients and making a difference in what we do.</p> <a href="#" class="imadraf-btn imadraf-btn-P" data-aos="fade-up">See all</a></div>
     </div>
-    <div class="gallery page-section py-4" id="GALLERY">
-        <div class="gallery-content ilsraf-container">
+    <!-- <div class="gallery page-section py-4" id="GALLERY">
+        <div class="gallery-content imadraf-container">
             <div class="head-cont mb-4">
                 <div data-aos="fade-right" class="head-strok"></div>
-                <h2 class="ilsraf-header mr-2 ml-2">Gallery</h2>
+                <h2 class="imadraf-header mr-2 ml-2">Gallery</h2>
                 <div class="head-line" id="headLine3"></div>
             </div>
-            <p class="ilsraf-para" data-aos="fade-up"> Feel free to see our photo gallery to see me in person and also to get known to our work procedure and see some behinde the scenes of our brain storming ideas and creative design and developpement methodologies ; and for the most important
+            <p class="imadraf-para" data-aos="fade-up"> Feel free to see our photo gallery to see me in person and also to get known to our work procedure and see some behinde the scenes of our brain storming ideas and creative design and developpement methodologies ; and for the most important
                 thing; WE HOPE YOU LIKE OUR WORK !</p>
             <div class="galls py-4">
                 <div class="border" data-aos="fade-up">
@@ -332,111 +454,31 @@
                         <a href="img/Gallery/Me-5.jpg" data-lightbox="mygallery" data-title="Parc Lalla Maryam"> <i class="fas fa-search-plus"></i> </a> <img src="img/Gallery/Me-5.jpg" alt=""></div>
                 </div>
             </div>
-            <div class="gallery-btns py-4"> <a href="#" class="ilsraf-btn ilsraf-btn-P" data-aos="fade-up">See all</a> <a href="https://www.instagram.com/ilyes_rafai/" target="_blank" class="ilsraf-btn ilsraf-btn-S" data-aos="fade-up">Instagram</a></div>
+            <div class="gallery-btns py-4"> <a href="#" class="imadraf-btn imadraf-btn-P" data-aos="fade-up">See all</a> <a href="https://www.instagram.com/ilyes_rafai/" target="_blank" class="imadraf-btn imadraf-btn-S" data-aos="fade-up">Instagram</a></div>
         </div>
-    </div>
-    <div class="about page-section py-4" id="ABOUT">
-        <div class="about-content ilsraf-container">
-            <div class="head-cont mb-4">
-                <div data-aos="fade-right" class="head-strok"></div>
-                <h2 class="ilsraf-header mr-2 ml-2">About</h2>
-                <div class="head-line" id="headLine4"></div>
-            </div>
-            <p class="ilsraf-para mb-2" data-aos="fade-up"> My name is ILYES RAFAI, I'm 25 years old, I was born in Guercif city in the Oriental region, northeast of the Moroccan kingdom.</p>
-            <p class="ilsraf-para mb-2" data-aos="fade-up"> I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding or designing, you'll find me eating, watching tutorials, playing strategies games or listening to music specially Cheb Hasni's musics.</p>
-            <p class="ilsraf-para mb-4" data-aos="fade-up"> I do the work I do because I love it. I like the industry. I like the people I meet. I like to talk shop. I embrace the nerd. I like to make the web a better place. Hopefully we cross paths in the real world someday and we can make it a better
-                place together.</p>
-            <div class="skills mb-4">
-                <h2 class="ilsraf-sub text-center mb-4" data-aos="fade-right">Skills</h2>
-                <div class="skill mb-4">
-                    <div class="meft meft1">
-                        <div class="flex mb-2">
-                            <p class="ilsraf-para">Front-End</p>
-                            <p class="ilsraf-para percent">90%</p>
-                        </div>
-                    </div>
-                    <div class="number">
-                        <div class="progress progress1"></div>
-                    </div>
-                </div>
-                <div class="skill mb-4">
-                    <div class="meft meft2">
-                        <div class="flex mb-2">
-                            <p class="ilsraf-para">Back-End</p>
-                            <p class="ilsraf-para percent">60%</p>
-                        </div>
-                    </div>
-                    <div class="number">
-                        <div class="progress progress2"></div>
-                    </div>
-                </div>
-                <div class="skill mb-4">
-                    <div class="meft meft3">
-                        <div class="flex mb-2">
-                            <p class="ilsraf-para">Eating</p>
-                            <p class="ilsraf-para percent">100%</p>
-                        </div>
-                    </div>
-                    <div class="number">
-                        <div class="progress progress3"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline">
-                <h2 class="ilsraf-sub text-center mb-4" data-aos="fade-right">Education</h2>
-                <div class="timeline-content">
-                    <div class="time">
-                        <p class="ilsraf-para year">2015</p>
-                        <div class="left" data-aos="fade-right">
-                            <p class="title">O.F.P.P.T SIDI MAFA</p>
-                            <p class="description">Diploma in commercial refrigeration and air conditioning</p>
-                        </div>
-                    </div>
-                    <div class="clear-fix"></div>
-                    <div class="time">
-                        <p class="ilsraf-para year">2017</p>
-                        <div class="right" data-aos="fade-left">
-                            <p class="title">E.M.I.G</p>
-                            <p class="description">Diploma in Computerized Management</p>
-                        </div>
-                    </div>
-                    <div class="clear-fix"></div>
-                    <div class="time">
-                        <p class="ilsraf-para year">2019</p>
-                        <div class="left" data-aos="fade-right">
-                            <p class="title">E.M.I.G</p>
-                            <p class="description">Graduate in computer development</p>
-                        </div>
-                    </div>
-                    <div class="clear-fix"></div>
-                    <div class="time">
-                        <p class="ilsraf-para year">2021</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </div> -->
+    
     <div class="contact page-section py-4" id="CONTACT">
-        <div class="contact-content ilsraf-container">
+        <div class="contact-content imadraf-container">
             <div class="head-cont mb-4">
                 <div data-aos="fade-right" class="head-strok"></div>
-                <h2 class="ilsraf-header mr-2 ml-2">Contact</h2>
+                <h2 class="imadraf-header mr-2 ml-2">Contact</h2>
                 <div class="head-line" id="headLine5"></div>
             </div>
-            <p class="ilsraf-moy text-center" data-aos="fade-up">let's have a talk !</p>
+            <p class="imadraf-moy text-center" data-aos="fade-up">let's have a talk !</p>
 
 
 
             <form data-parsley-validate="" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <div class="form-group" data-aos="fade-up">
-                    <label class="ilsraf-para" for="name">full name</label>
+                    <label class="imadraf-para" for="name">full name</label>
                     <input type="text" class="form-control" id="name" name="name" required="true" data-parsley-trigger="change" data-parsley-error-message="Please enter your name"></div>
-                <div class="form-group" data-aos="fade-up"> <label class="ilsraf-para" for="sujet">Subject</label> <input type="text" class="form-control" id="sujet" name="sujet" required="true" data-parsley-error-message="Please enter a subject"></div>
+                <div class="form-group" data-aos="fade-up"> <label class="imadraf-para" for="sujet">Subject</label> <input type="text" class="form-control" id="sujet" name="sujet" required="true" data-parsley-error-message="Please enter a subject"></div>
                 <div class="form-group" data-aos="fade-up">
-                    <label class="ilsraf-para" for="tel">Phone number</label> <input type="tel" class="form-control" id="tel" name="tel" required="true" data-parsley-error-message="Phone Number must be at least 10 number" data-parsley-minlength="10"></div>
-                <div class="form-group" data-aos="fade-up"> <label class="ilsraf-para" for="email">Email</label> <input type="email" class="form-control" id="email" name="email" required="true" data-parsley-type="email" data-parsley-error-message="Please enter your valid email"></div>
-                <div class="form-group" data-aos="fade-up"> <label class="ilsraf-para" for="message">Message</label><textarea class="form-control" rows="5" id="message" name="message" required="true" data-parsley-error-message="Please enter a message"></textarea></div> <button data-aos="fade-up"
-                    name="submitContact" type="submit" class="ilsraf-btn ilsraf-btn-P" ta><span>Send</span></button>
+                    <label class="imadraf-para" for="tel">Phone number</label> <input type="tel" class="form-control" id="tel" name="tel" required="true" data-parsley-error-message="Phone Number must be at least 10 number" data-parsley-minlength="10"></div>
+                <div class="form-group" data-aos="fade-up"> <label class="imadraf-para" for="email">Email</label> <input type="email" class="form-control" id="email" name="email" required="true" data-parsley-type="email" data-parsley-error-message="Please enter your valid email"></div>
+                <div class="form-group" data-aos="fade-up"> <label class="imadraf-para" for="message">Message</label><textarea class="form-control" rows="5" id="message" name="message" required="true" data-parsley-error-message="Please enter a message"></textarea></div> <button data-aos="fade-up"
+                    name="submitContact" type="submit" class="imadraf-btn imadraf-btn-P" ta><span>Send</span></button>
             </form>
 
 
@@ -444,20 +486,21 @@
         </div>
     </div>
     <div class="footer-social py-4" data-aos="fade-up">
-        <div class="footer-social-content ilsraf-container">
-            <p class="ilsraf-moy mb-2">find me on social media</p>
+        <div class="footer-social-content imadraf-container">
+            <p class="imadraf-moy mb-2">find me on social media</p>
             <div class="flex">
-                <a href="https://www.facebook.com/ilyes.rafai.313" target="_blank"> <i title="Facebook" class="fab fa-facebook-square"></i> </a>
-                <a href="https://www.instagram.com/ilyes_rafai/" target="_blank"> <i title="Instagram" class="fab fa-instagram"></i> </a>
-                <a href="https://www.youtube.com/channel/UC9tAnKGynRVJ9CXX-WzeD7w" target="_blank"> <i title="Youtube" class="fab fa-youtube"></i> </a>
-                <a href="https://twitter.com/Rafai_ILyes" target="_blank"> <i title="Twitter" class="fab fa-twitter"></i> </a>
-                <a href="https://www.linkedin.com/in/ilyes-rafai" target="_blank"> <i title="Linkedin" class="fab fa-linkedin"></i> </a>
+                <a href="https://www.facebook.com/iimadrafaii/" target="_blank"> <i title="Facebook" class="fab fa-facebook-square"></i> </a>
+                <a href="https://www.instagram.com/rafai_imad/" target="_blank"> <i title="Instagram" class="fab fa-instagram"></i> </a>
+                <a href="https://www.youtube.com/user/imadfans" target="_blank"> <i title="Youtube" class="fab fa-youtube"></i> </a>
+                <a href="https://twitter.com/iimadrafaii" target="_blank"> <i title="Twitter" class="fab fa-twitter"></i> </a>
+                <a href="https://www.linkedin.com/in/rafaiimad/" target="_blank"> <i title="Linkedin" class="fab fa-linkedin"></i> </a>
+                <a href="https://github.com/iimadrafaii" target="_blank"> <i title="Github" class="fab fa-linkedin"></i> </a>
             </div>
         </div>
     </div>
     <div class="footer-copy py-4">
-        <div class="footer-copy-content ilsraf-container"> <span>&copy;</span>
-            <p class="ilsraf-para">Ilyes rafai 2021</p>
+        <div class="footer-copy-content imadraf-container"> <span>&copy;</span>
+            <p class="imadraf-para">Imad rafai 2021</p>
         </div>
     </div>
     <script src="js/jQuery.js"></script>
@@ -475,7 +518,7 @@
         });
         $(".why-modal").iziModal({
             title: 'Design fundamentals',
-            subtitle: 'ILsraf DIGITAL WORKS',
+            subtitle: 'imadraf DIGITAL WORKS',
             color: 'var(--P-color)',
             radius: 5,
             padding: 60,
